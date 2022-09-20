@@ -1,0 +1,756 @@
+2022-04-14 10:01:47,324 INFO  - MaterializeWorkflowDescriptorActor [UUID(4b7684e9)]: Parsing workflow as WDL 1.0
+2022-04-14 10:01:47,961 INFO  - MaterializeWorkflowDescriptorActor [UUID(4b7684e9)]: Call-to-Backend assignments: pb_basemods.cleanup_chunked_dataset_files -> Local, mapping.auto_consolidate_alignments -> Local, wf_basemods.ipdsummary -> Local, coverage_reports.pbreports_coverage -> Local, coverage_reports.summarize_coverage -> Local, pb_basemods.update_reference -> Local, wf_basemods.reprocess_motifs -> Local, wf_basemods.split_alignments -> Local, pb_basemods.update_subreads -> Local, wf_basemods.find_motifs -> Local, wf_basemods.gather_basemods_csv -> Local, mapping.cleanup_chunked_dataset_files -> Local, coverage_reports.plot_target_coverage -> Local, wf_basemods.gather_basemods_gff -> Local, mapping.gather_alignments -> Local, pb_basemods.auto_consolidate_alignments -> Local, coverage_reports.plot_target_coverage -> Local, coverage_reports.summarize_coverage -> Local, mapping.mapping_stats -> Local, wf_basemods.gather_bigwig -> Local, coverage_reports.target_coverage -> Local, coverage_reports.pbreports_coverage -> Local, coverage_reports.gc_coverage_plot -> Local, mapping.split_reads -> Local, coverage_reports.gc_coverage_plot -> Local, wf_basemods.modifications_report -> Local, wf_basemods.motifs_report -> Local, coverage_reports.target_coverage -> Local, pb_basemods.dataset_filter -> Local, get_input_sizes.get_ref_size -> Local, get_input_sizes.get_bam_size -> Local, mapping.pbmm2_align -> Local
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [backend, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [backend, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:47,967 WARN  - Local [UUID(4b7684e9)]: Key/s [cpu, memory] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2022-04-14 10:01:50,004 INFO  - WorkflowExecutionActor-4b7684e9-97a8-4b2e-a83d-10751c095c4b [UUID(4b7684e9)]: Starting pb_basemods.update_reference, pb_basemods.update_subreads
+2022-04-14 10:10:38,432 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.update_reference:NA:1]: Unrecognized runtime attribute keys: backend, memory
+2022-04-14 10:10:38,436 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.update_reference:NA:1]: `touch .NOARCHIVE
+set -vex
+dataset \
+  --skipCounts \
+  --log-level INFO \
+  absolutize \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-update_reference/inputs/-1895845120/smrtlink_reference.referenceset.xml \
+  --outdir .`
+2022-04-14 10:10:38,439 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.update_reference:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-update_reference/execution/script
+2022-04-14 10:10:41,392 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.update_reference:NA:1]: job id: 1963308
+2022-04-14 10:10:41,392 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.update_reference:NA:1]: Status change from - to Done
+2022-04-14 10:12:38,426 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.update_subreads:NA:1]: Unrecognized runtime attribute keys: backend, memory
+2022-04-14 10:12:38,430 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.update_subreads:NA:1]: `touch .NOARCHIVE
+set -vex
+dataset \
+  --skipCounts \
+  --log-level INFO \
+  absolutize \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-update_subreads/inputs/-139722/demultiplex.bc2026--bc2026.subreadset.xml \
+  --outdir .`
+2022-04-14 10:12:38,432 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.update_subreads:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-update_subreads/execution/script
+2022-04-14 10:12:41,377 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.update_subreads:NA:1]: job id: 1964024
+2022-04-14 10:12:41,378 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.update_subreads:NA:1]: Status change from - to Done
+2022-04-14 10:12:45,564 INFO  - WorkflowExecutionActor-4b7684e9-97a8-4b2e-a83d-10751c095c4b [UUID(4b7684e9)]: Starting pb_basemods.dataset_filter
+2022-04-14 10:13:14,426 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.dataset_filter:NA:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 10:13:14,431 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.dataset_filter:NA:1]: `touch .NOARCHIVE
+set -vex
+python3 \
+  -m pbcoretools.tasks.dataset_filter \
+  --log-level INFO \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-dataset_filter/inputs/-1533519844/demultiplex.bc2026--bc2026.subreadset.xml \
+  filtered.subreadset.xml \
+  '' \
+   \
+   \
+   \
+  --downsample 0`
+2022-04-14 10:13:14,433 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.dataset_filter:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-dataset_filter/execution/script
+2022-04-14 10:13:16,375 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.dataset_filter:NA:1]: job id: 1964635
+2022-04-14 10:13:16,376 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.dataset_filter:NA:1]: Status change from - to Done
+2022-04-14 10:13:26,353 INFO  - 3491b138-1b22-40a7-9a7c-5bca186232cd-SubWorkflowActor-SubWorkflow-get_input_sizes:-1:1 [UUID(3491b138)]: Starting get_input_sizes.get_bam_size
+2022-04-14 10:13:28,394 INFO  - 3491b138-1b22-40a7-9a7c-5bca186232cd-SubWorkflowActor-SubWorkflow-get_input_sizes:-1:1 [UUID(3491b138)]: Starting get_input_sizes.get_ref_size
+2022-04-14 10:13:53,426 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(3491b138)get_input_sizes.get_bam_size:NA:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 10:13:53,433 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(3491b138)get_input_sizes.get_bam_size:NA:1]: `python3 -m pbcoretools.tasks.memory.get_dataset_size \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-get_input_sizes/get_input_sizes/3491b138-1b22-40a7-9a7c-5bca186232cd/call-get_bam_size/inputs/2064129064/filtered.subreadset.xml \
+  --skip-counts \
+  --get-index-size`
+2022-04-14 10:13:53,435 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(3491b138)get_input_sizes.get_bam_size:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-get_input_sizes/get_input_sizes/3491b138-1b22-40a7-9a7c-5bca186232cd/call-get_bam_size/execution/script
+2022-04-14 10:13:56,434 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(3491b138)get_input_sizes.get_bam_size:NA:1]: job id: 1965106
+2022-04-14 10:13:56,434 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(3491b138)get_input_sizes.get_bam_size:NA:1]: Status change from - to Done
+2022-04-14 10:14:20,426 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(3491b138)get_input_sizes.get_ref_size:NA:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 10:14:20,430 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(3491b138)get_input_sizes.get_ref_size:NA:1]: `python3 -m pbcoretools.tasks.memory.get_dataset_size \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-get_input_sizes/get_input_sizes/3491b138-1b22-40a7-9a7c-5bca186232cd/call-get_ref_size/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  --no-skip-counts \`
+2022-04-14 10:14:20,433 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(3491b138)get_input_sizes.get_ref_size:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-get_input_sizes/get_input_sizes/3491b138-1b22-40a7-9a7c-5bca186232cd/call-get_ref_size/execution/script
+2022-04-14 10:14:21,377 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(3491b138)get_input_sizes.get_ref_size:NA:1]: job id: 1965554
+2022-04-14 10:14:21,378 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(3491b138)get_input_sizes.get_ref_size:NA:1]: Status change from - to Done
+2022-04-14 10:14:26,534 INFO  - 3491b138-1b22-40a7-9a7c-5bca186232cd-SubWorkflowActor-SubWorkflow-get_input_sizes:-1:1 [UUID(3491b138)]: Workflow get_input_sizes complete. Final Outputs:
+{
+  "get_input_sizes.bam_filters": 1,
+  "get_input_sizes.index_memory_gb": 2,
+  "get_input_sizes.bam_size": 8564924,
+  "get_input_sizes.bam_files": 1,
+  "get_input_sizes.bam_length_mb": 25391,
+  "get_input_sizes.genome_length_mb": 1,
+  "get_input_sizes.num_contigs": 1
+}
+2022-04-14 10:14:28,574 INFO  - 027c7883-9f37-4703-8f49-56998780c6a3-SubWorkflowActor-SubWorkflow-mapping:-1:1 [UUID(027c7883)]: Starting mapping.split_reads
+2022-04-14 10:16:05,426 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.split_reads:NA:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 10:16:05,431 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.split_reads:NA:1]: `touch .NOARCHIVE
+dataset \
+  --log-level INFO \
+  split --zmws --simple-chunk-ids  \
+  --maxChunks 8 \
+  --targetSize 20000 \
+  --outdir . \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-split_reads/inputs/2064129064/filtered.subreadset.xml`
+2022-04-14 10:16:05,433 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.split_reads:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-split_reads/execution/script
+2022-04-14 10:16:06,365 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.split_reads:NA:1]: job id: 1966287
+2022-04-14 10:16:06,366 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.split_reads:NA:1]: Status change from - to WaitingForReturnCode
+2022-04-14 10:16:48,644 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.split_reads:NA:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 10:16:54,435 INFO  - 027c7883-9f37-4703-8f49-56998780c6a3-SubWorkflowActor-SubWorkflow-mapping:-1:1 [UUID(027c7883)]: Starting mapping.pbmm2_align (8 shards)
+2022-04-14 10:17:58,428 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:4:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 10:17:58,438 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:4:1]: `set -vex
+TMPDIR=/pub33/pbio10/smrtlink/userdata/tmp_dir \
+pbmm2 \
+  align \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-4/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-4/inputs/-212028453/filtered.chunk4.subreadset.xml \
+  mapped.alignmentset.xml \
+  --sort \
+  --min-gap-comp-id-perc 70.0 \
+  --min-length 50 \
+  --sample "" \
+   \
+   \
+   \
+   \
+   \
+   \
+   \
+  -j 15 \
+  --log-level INFO \
+  --log-file pbmm2.log \
+  --alarms alarms.json && \
+ls mapped.alignmentset.xml || ( \
+cp mapped.json mapped.datastore.json && \
+python3 \
+  -m pbcoretools.tasks.dataset_to_datastore \
+  mapped.datastore.json \
+  mapped.alignmentset.xml
+)`
+2022-04-14 10:17:58,440 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:4:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-4/execution/script
+2022-04-14 10:18:01,377 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:4:1]: job id: 1966918
+2022-04-14 10:18:01,377 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:4:1]: Status change from - to WaitingForReturnCode
+2022-04-14 10:22:29,843 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:4:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 10:26:32,425 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:5:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 10:26:32,431 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:5:1]: `set -vex
+TMPDIR=/pub33/pbio10/smrtlink/userdata/tmp_dir \
+pbmm2 \
+  align \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-5/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-5/inputs/-212028453/filtered.chunk5.subreadset.xml \
+  mapped.alignmentset.xml \
+  --sort \
+  --min-gap-comp-id-perc 70.0 \
+  --min-length 50 \
+  --sample "" \
+   \
+   \
+   \
+   \
+   \
+   \
+   \
+  -j 15 \
+  --log-level INFO \
+  --log-file pbmm2.log \
+  --alarms alarms.json && \
+ls mapped.alignmentset.xml || ( \
+cp mapped.json mapped.datastore.json && \
+python3 \
+  -m pbcoretools.tasks.dataset_to_datastore \
+  mapped.datastore.json \
+  mapped.alignmentset.xml
+)`
+2022-04-14 10:26:32,432 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:5:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-5/execution/script
+2022-04-14 10:26:36,390 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:5:1]: job id: 1968243
+2022-04-14 10:26:36,390 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:5:1]: Status change from - to WaitingForReturnCode
+2022-04-14 10:31:00,485 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:5:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 10:31:23,429 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:1:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 10:31:23,434 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:1:1]: `set -vex
+TMPDIR=/pub33/pbio10/smrtlink/userdata/tmp_dir \
+pbmm2 \
+  align \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-1/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-1/inputs/-212028453/filtered.chunk1.subreadset.xml \
+  mapped.alignmentset.xml \
+  --sort \
+  --min-gap-comp-id-perc 70.0 \
+  --min-length 50 \
+  --sample "" \
+   \
+   \
+   \
+   \
+   \
+   \
+   \
+  -j 15 \
+  --log-level INFO \
+  --log-file pbmm2.log \
+  --alarms alarms.json && \
+ls mapped.alignmentset.xml || ( \
+cp mapped.json mapped.datastore.json && \
+python3 \
+  -m pbcoretools.tasks.dataset_to_datastore \
+  mapped.datastore.json \
+  mapped.alignmentset.xml
+)`
+2022-04-14 10:31:23,436 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:1:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-1/execution/script
+2022-04-14 10:31:26,378 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:1:1]: job id: 1969431
+2022-04-14 10:31:26,379 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:1:1]: Status change from - to WaitingForReturnCode
+2022-04-14 10:36:17,020 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:1:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 10:38:05,429 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:3:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 10:38:05,436 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:3:1]: `set -vex
+TMPDIR=/pub33/pbio10/smrtlink/userdata/tmp_dir \
+pbmm2 \
+  align \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-3/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-3/inputs/-212028453/filtered.chunk3.subreadset.xml \
+  mapped.alignmentset.xml \
+  --sort \
+  --min-gap-comp-id-perc 70.0 \
+  --min-length 50 \
+  --sample "" \
+   \
+   \
+   \
+   \
+   \
+   \
+   \
+  -j 15 \
+  --log-level INFO \
+  --log-file pbmm2.log \
+  --alarms alarms.json && \
+ls mapped.alignmentset.xml || ( \
+cp mapped.json mapped.datastore.json && \
+python3 \
+  -m pbcoretools.tasks.dataset_to_datastore \
+  mapped.datastore.json \
+  mapped.alignmentset.xml
+)`
+2022-04-14 10:38:05,438 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:3:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-3/execution/script
+2022-04-14 10:38:06,379 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:3:1]: job id: 1971067
+2022-04-14 10:38:06,380 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:3:1]: Status change from - to WaitingForReturnCode
+2022-04-14 10:42:12,115 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:3:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 10:43:32,426 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:6:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 10:43:32,443 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:6:1]: `set -vex
+TMPDIR=/pub33/pbio10/smrtlink/userdata/tmp_dir \
+pbmm2 \
+  align \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-6/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-6/inputs/-212028453/filtered.chunk6.subreadset.xml \
+  mapped.alignmentset.xml \
+  --sort \
+  --min-gap-comp-id-perc 70.0 \
+  --min-length 50 \
+  --sample "" \
+   \
+   \
+   \
+   \
+   \
+   \
+   \
+  -j 15 \
+  --log-level INFO \
+  --log-file pbmm2.log \
+  --alarms alarms.json && \
+ls mapped.alignmentset.xml || ( \
+cp mapped.json mapped.datastore.json && \
+python3 \
+  -m pbcoretools.tasks.dataset_to_datastore \
+  mapped.datastore.json \
+  mapped.alignmentset.xml
+)`
+2022-04-14 10:43:32,450 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:6:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-6/execution/script
+2022-04-14 10:43:36,416 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:6:1]: job id: 1972313
+2022-04-14 10:43:36,417 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:6:1]: Status change from - to WaitingForReturnCode
+2022-04-14 10:47:17,744 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:6:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 10:48:38,426 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:0:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 10:48:38,438 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:0:1]: `set -vex
+TMPDIR=/pub33/pbio10/smrtlink/userdata/tmp_dir \
+pbmm2 \
+  align \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-0/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-0/inputs/-212028453/filtered.chunk0.subreadset.xml \
+  mapped.alignmentset.xml \
+  --sort \
+  --min-gap-comp-id-perc 70.0 \
+  --min-length 50 \
+  --sample "" \
+   \
+   \
+   \
+   \
+   \
+   \
+   \
+  -j 15 \
+  --log-level INFO \
+  --log-file pbmm2.log \
+  --alarms alarms.json && \
+ls mapped.alignmentset.xml || ( \
+cp mapped.json mapped.datastore.json && \
+python3 \
+  -m pbcoretools.tasks.dataset_to_datastore \
+  mapped.datastore.json \
+  mapped.alignmentset.xml
+)`
+2022-04-14 10:48:38,441 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:0:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-0/execution/script
+2022-04-14 10:48:41,377 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:0:1]: job id: 1973433
+2022-04-14 10:48:41,378 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:0:1]: Status change from - to WaitingForReturnCode
+2022-04-14 10:53:41,884 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:0:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 10:55:47,428 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:7:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 10:55:47,435 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:7:1]: `set -vex
+TMPDIR=/pub33/pbio10/smrtlink/userdata/tmp_dir \
+pbmm2 \
+  align \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-7/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-7/inputs/-212028453/filtered.chunk7.subreadset.xml \
+  mapped.alignmentset.xml \
+  --sort \
+  --min-gap-comp-id-perc 70.0 \
+  --min-length 50 \
+  --sample "" \
+   \
+   \
+   \
+   \
+   \
+   \
+   \
+  -j 15 \
+  --log-level INFO \
+  --log-file pbmm2.log \
+  --alarms alarms.json && \
+ls mapped.alignmentset.xml || ( \
+cp mapped.json mapped.datastore.json && \
+python3 \
+  -m pbcoretools.tasks.dataset_to_datastore \
+  mapped.datastore.json \
+  mapped.alignmentset.xml
+)`
+2022-04-14 10:55:47,436 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:7:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-7/execution/script
+2022-04-14 10:55:51,376 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:7:1]: job id: 1974945
+2022-04-14 10:55:51,376 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:7:1]: Status change from - to WaitingForReturnCode
+2022-04-14 10:59:56,134 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:7:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 11:02:11,427 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:2:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 11:02:11,434 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:2:1]: `set -vex
+TMPDIR=/pub33/pbio10/smrtlink/userdata/tmp_dir \
+pbmm2 \
+  align \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-2/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-2/inputs/-212028453/filtered.chunk2.subreadset.xml \
+  mapped.alignmentset.xml \
+  --sort \
+  --min-gap-comp-id-perc 70.0 \
+  --min-length 50 \
+  --sample "" \
+   \
+   \
+   \
+   \
+   \
+   \
+   \
+  -j 15 \
+  --log-level INFO \
+  --log-file pbmm2.log \
+  --alarms alarms.json && \
+ls mapped.alignmentset.xml || ( \
+cp mapped.json mapped.datastore.json && \
+python3 \
+  -m pbcoretools.tasks.dataset_to_datastore \
+  mapped.datastore.json \
+  mapped.alignmentset.xml
+)`
+2022-04-14 11:02:11,436 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:2:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-pbmm2_align/shard-2/execution/script
+2022-04-14 11:02:16,386 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:2:1]: job id: 1976418
+2022-04-14 11:02:16,387 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:2:1]: Status change from - to WaitingForReturnCode
+2022-04-14 11:06:13,314 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.pbmm2_align:2:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 11:06:16,484 INFO  - 027c7883-9f37-4703-8f49-56998780c6a3-SubWorkflowActor-SubWorkflow-mapping:-1:1 [UUID(027c7883)]: Starting mapping.gather_alignments
+2022-04-14 11:06:41,426 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.gather_alignments:NA:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 11:06:41,443 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.gather_alignments:NA:1]: `dataset \
+  --log-level INFO \
+  --strict \
+  create \
+  --trustCounts \
+  --no-sub-datasets \
+  --unique-collections \
+  --name 'Mapped Reads' \
+  mapped.alignmentset.xml \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-gather_alignments/inputs/-1803492650/mapped.alignmentset.xml /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-gather_alignments/inputs/694523287/mapped.alignmentset.xml /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-gather_alignments/inputs/-1102428072/mapped.alignmentset.xml /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-gather_alignments/inputs/1395587865/mapped.alignmentset.xml /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-gather_alignments/inputs/-401363494/mapped.alignmentset.xml /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-gather_alignments/inputs/2096652443/mapped.alignmentset.xml /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-gather_alignments/inputs/299701084/mapped.alignmentset.xml /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-gather_alignments/inputs/-1497250275/mapped.alignmentset.xml`
+2022-04-14 11:06:41,445 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.gather_alignments:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-gather_alignments/execution/script
+2022-04-14 11:06:46,375 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.gather_alignments:NA:1]: job id: 1977528
+2022-04-14 11:06:46,376 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.gather_alignments:NA:1]: Status change from - to Done
+2022-04-14 11:06:52,184 INFO  - 027c7883-9f37-4703-8f49-56998780c6a3-SubWorkflowActor-SubWorkflow-mapping:-1:1 [UUID(027c7883)]: Starting mapping.mapping_stats
+2022-04-14 11:07:23,427 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.mapping_stats:NA:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 11:07:23,440 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.mapping_stats:NA:1]: `python3 \
+  -m pbreports.report.mapping_stats \
+  --log-level INFO \
+  --nproc 15 \
+  --min-concordance 70.0 \
+   \
+  --all-reads /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-mapping_stats/inputs/2064129064/filtered.subreadset.xml \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-mapping_stats/inputs/-1473452430/mapped.alignmentset.xml \
+  mapping_stats.report.json`
+2022-04-14 11:07:23,443 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.mapping_stats:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-mapping_stats/execution/script
+2022-04-14 11:07:26,395 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.mapping_stats:NA:1]: job id: 1977873
+2022-04-14 11:07:26,396 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.mapping_stats:NA:1]: Status change from - to WaitingForReturnCode
+2022-04-14 11:07:50,934 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(027c7883)mapping.mapping_stats:NA:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 11:07:55,424 INFO  - 027c7883-9f37-4703-8f49-56998780c6a3-SubWorkflowActor-SubWorkflow-mapping:-1:1 [UUID(027c7883)]: Workflow mapping complete. Final Outputs:
+{
+  "mapping.coverage_gff": null,
+  "mapping.plot_target_coverage_png": null,
+  "mapping.index_memory_gb": 2,
+  "mapping.genome_length_mb": 1,
+  "mapping.report_target_coverage": null,
+  "mapping.mapped_bam_datastore": null,
+  "mapping.mapped": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-gather_alignments/execution/mapped.alignmentset.xml",
+  "mapping.report_mapping_stats": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-mapping_stats/execution/mapping_stats.report.json",
+  "mapping.report_coverage": null
+}
+2022-04-14 11:07:57,463 INFO  - WorkflowExecutionActor-4b7684e9-97a8-4b2e-a83d-10751c095c4b [UUID(4b7684e9)]: Starting pb_basemods.auto_consolidate_alignments
+2022-04-14 11:07:59,504 INFO  - 72b80c74-ace3-4f13-be95-dfb68c0bee26-SubWorkflowActor-SubWorkflow-coverage_reports:-1:1 [UUID(72b80c74)]: Starting coverage_reports.summarize_coverage
+2022-04-14 11:07:59,504 INFO  - c99b9f74-6340-401a-8cd5-9d213adb49c1-SubWorkflowActor-SubWorkflow-wf_basemods:-1:1 [UUID(c99b9f74)]: Starting wf_basemods.split_alignments
+2022-04-14 11:08:01,543 INFO  - 72b80c74-ace3-4f13-be95-dfb68c0bee26-SubWorkflowActor-SubWorkflow-coverage_reports:-1:1 [UUID(72b80c74)]: Starting coverage_reports.gc_coverage_plot
+2022-04-14 11:08:14,427 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.auto_consolidate_alignments:NA:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 11:08:14,431 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.auto_consolidate_alignments:NA:1]: `# We specify TMPDIR despite --noTmp b/c the XML will be written to TMPDIR anyway.
+# --noTmp refers only to BAM.
+set -vex
+
+TMPDIR=/pub33/pbio10/smrtlink/userdata/tmp_dir \
+python3 -m pbcoretools.tasks.auto_consolidate \
+  --log-level INFO \
+  --noTmp \
+   \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-auto_consolidate_alignments/inputs/-1473452430/mapped.alignmentset.xml \
+  --datastore mapped.datastore.json \
+  mapped.bam`
+2022-04-14 11:08:14,433 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.auto_consolidate_alignments:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-auto_consolidate_alignments/execution/script
+2022-04-14 11:08:16,376 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.auto_consolidate_alignments:NA:1]: job id: 1978496
+2022-04-14 11:08:16,376 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(4b7684e9)pb_basemods.auto_consolidate_alignments:NA:1]: Status change from - to Done
+2022-04-14 11:08:38,426 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(72b80c74)coverage_reports.summarize_coverage:NA:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 11:08:38,432 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(72b80c74)coverage_reports.summarize_coverage:NA:1]: `python3 \
+  -m pbreports.report.summarize_coverage \
+  --log-level INFO \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-coverage_reports/coverage_reports/72b80c74-ace3-4f13-be95-dfb68c0bee26/call-summarize_coverage/inputs/-1473452430/mapped.alignmentset.xml \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-coverage_reports/coverage_reports/72b80c74-ace3-4f13-be95-dfb68c0bee26/call-summarize_coverage/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  coverage.gff`
+2022-04-14 11:08:38,433 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(72b80c74)coverage_reports.summarize_coverage:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-coverage_reports/coverage_reports/72b80c74-ace3-4f13-be95-dfb68c0bee26/call-summarize_coverage/execution/script
+2022-04-14 11:08:41,376 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(72b80c74)coverage_reports.summarize_coverage:NA:1]: job id: 1978743
+2022-04-14 11:08:41,377 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(72b80c74)coverage_reports.summarize_coverage:NA:1]: Status change from - to WaitingForReturnCode
+2022-04-14 11:09:01,193 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(72b80c74)coverage_reports.summarize_coverage:NA:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 11:09:11,426 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.split_alignments:NA:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 11:09:11,432 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.split_alignments:NA:1]: `touch .NOARCHIVE
+dataset \
+  --log-level DEBUG \
+  split \
+  --maxChunks 8 \
+   \
+  --contigs --breakContigs \
+  --outdir . \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-split_alignments/inputs/-1473452430/mapped.alignmentset.xml`
+2022-04-14 11:09:11,434 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.split_alignments:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-split_alignments/execution/script
+2022-04-14 11:09:16,393 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.split_alignments:NA:1]: job id: 1979145
+2022-04-14 11:09:16,393 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.split_alignments:NA:1]: Status change from - to WaitingForReturnCode
+2022-04-14 11:09:19,413 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.split_alignments:NA:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 11:09:27,224 INFO  - c99b9f74-6340-401a-8cd5-9d213adb49c1-SubWorkflowActor-SubWorkflow-wf_basemods:-1:1 [UUID(c99b9f74)]: Starting wf_basemods.ipdsummary (8 shards)
+2022-04-14 11:09:53,426 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(72b80c74)coverage_reports.gc_coverage_plot:NA:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 11:09:53,430 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(72b80c74)coverage_reports.gc_coverage_plot:NA:1]: `python3 \
+  -m pbreports.tasks.plot_gc_coverage \
+  --log-level INFO \
+  --region-size 100 \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-coverage_reports/coverage_reports/72b80c74-ace3-4f13-be95-dfb68c0bee26/call-gc_coverage_plot/inputs/-1473452430/mapped.alignmentset.xml /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-coverage_reports/coverage_reports/72b80c74-ace3-4f13-be95-dfb68c0bee26/call-gc_coverage_plot/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  -o gc_coverage_boxplot.png`
+2022-04-14 11:09:53,431 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(72b80c74)coverage_reports.gc_coverage_plot:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-coverage_reports/coverage_reports/72b80c74-ace3-4f13-be95-dfb68c0bee26/call-gc_coverage_plot/execution/script
+2022-04-14 11:09:56,376 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(72b80c74)coverage_reports.gc_coverage_plot:NA:1]: job id: 1979586
+2022-04-14 11:09:56,377 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(72b80c74)coverage_reports.gc_coverage_plot:NA:1]: Status change from - to WaitingForReturnCode
+2022-04-14 11:10:17,574 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(72b80c74)coverage_reports.gc_coverage_plot:NA:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 11:10:22,303 INFO  - 72b80c74-ace3-4f13-be95-dfb68c0bee26-SubWorkflowActor-SubWorkflow-coverage_reports:-1:1 [UUID(72b80c74)]: Starting coverage_reports.pbreports_coverage
+2022-04-14 11:13:32,428 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:7:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 11:13:32,435 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:7:1]: `ipdSummary \
+  --log-level INFO \
+  --numWorkers 15 \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-7/inputs/-1836771770/mapped.chunk7.alignmentset.xml \
+  --reference /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-7/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  --gff basemods.gff \
+  --csv basemods.csv \
+  --bigwig ipds.bw \
+  --pvalue 0.001 \
+  --alignmentSetRefWindows \
+  --identify m4C,m6A \
+   \`
+2022-04-14 11:13:32,437 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:7:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-7/execution/script
+2022-04-14 11:13:36,397 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:7:1]: job id: 1980200
+2022-04-14 11:13:36,398 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:7:1]: Status change from - to WaitingForReturnCode
+2022-04-14 11:18:19,054 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:7:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 11:18:19,427 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:0:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 11:18:19,434 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:0:1]: `ipdSummary \
+  --log-level INFO \
+  --numWorkers 15 \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-0/inputs/-1836771770/mapped.chunk0.alignmentset.xml \
+  --reference /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-0/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  --gff basemods.gff \
+  --csv basemods.csv \
+  --bigwig ipds.bw \
+  --pvalue 0.001 \
+  --alignmentSetRefWindows \
+  --identify m4C,m6A \
+   \`
+2022-04-14 11:18:19,436 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:0:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-0/execution/script
+2022-04-14 11:18:21,366 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:0:1]: job id: 1981665
+2022-04-14 11:18:21,367 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:0:1]: Status change from - to WaitingForReturnCode
+2022-04-14 11:22:16,603 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:0:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 11:24:02,428 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:1:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 11:24:02,435 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:1:1]: `ipdSummary \
+  --log-level INFO \
+  --numWorkers 15 \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-1/inputs/-1836771770/mapped.chunk1.alignmentset.xml \
+  --reference /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-1/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  --gff basemods.gff \
+  --csv basemods.csv \
+  --bigwig ipds.bw \
+  --pvalue 0.001 \
+  --alignmentSetRefWindows \
+  --identify m4C,m6A \
+   \`
+2022-04-14 11:24:02,437 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:1:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-1/execution/script
+2022-04-14 11:24:06,388 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:1:1]: job id: 1983056
+2022-04-14 11:24:06,389 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:1:1]: Status change from - to WaitingForReturnCode
+2022-04-14 11:28:56,554 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:1:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 11:29:53,428 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:2:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 11:29:53,435 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:2:1]: `ipdSummary \
+  --log-level INFO \
+  --numWorkers 15 \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-2/inputs/-1836771770/mapped.chunk2.alignmentset.xml \
+  --reference /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-2/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  --gff basemods.gff \
+  --csv basemods.csv \
+  --bigwig ipds.bw \
+  --pvalue 0.001 \
+  --alignmentSetRefWindows \
+  --identify m4C,m6A \
+   \`
+2022-04-14 11:29:53,437 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:2:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-2/execution/script
+2022-04-14 11:29:56,391 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:2:1]: job id: 1984349
+2022-04-14 11:29:56,392 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:2:1]: Status change from - to WaitingForReturnCode
+2022-04-14 11:33:45,723 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:2:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 11:36:53,429 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:5:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 11:36:53,435 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:5:1]: `ipdSummary \
+  --log-level INFO \
+  --numWorkers 15 \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-5/inputs/-1836771770/mapped.chunk5.alignmentset.xml \
+  --reference /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-5/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  --gff basemods.gff \
+  --csv basemods.csv \
+  --bigwig ipds.bw \
+  --pvalue 0.001 \
+  --alignmentSetRefWindows \
+  --identify m4C,m6A \
+   \`
+2022-04-14 11:36:53,437 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:5:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-5/execution/script
+2022-04-14 11:36:56,377 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:5:1]: job id: 1985841
+2022-04-14 11:36:56,377 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:5:1]: Status change from - to WaitingForReturnCode
+2022-04-14 11:40:58,984 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:5:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 12:05:44,427 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:6:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 12:05:44,432 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:6:1]: `ipdSummary \
+  --log-level INFO \
+  --numWorkers 15 \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-6/inputs/-1836771770/mapped.chunk6.alignmentset.xml \
+  --reference /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-6/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  --gff basemods.gff \
+  --csv basemods.csv \
+  --bigwig ipds.bw \
+  --pvalue 0.001 \
+  --alignmentSetRefWindows \
+  --identify m4C,m6A \
+   \`
+2022-04-14 12:05:44,434 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:6:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-6/execution/script
+2022-04-14 12:05:46,376 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:6:1]: job id: 1988566
+2022-04-14 12:05:46,377 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:6:1]: Status change from - to WaitingForReturnCode
+2022-04-14 12:09:17,213 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:6:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 12:55:14,429 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:3:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 12:55:14,435 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:3:1]: `ipdSummary \
+  --log-level INFO \
+  --numWorkers 15 \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-3/inputs/-1836771770/mapped.chunk3.alignmentset.xml \
+  --reference /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-3/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  --gff basemods.gff \
+  --csv basemods.csv \
+  --bigwig ipds.bw \
+  --pvalue 0.001 \
+  --alignmentSetRefWindows \
+  --identify m4C,m6A \
+   \`
+2022-04-14 12:55:14,436 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:3:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-3/execution/script
+2022-04-14 12:55:16,376 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:3:1]: job id: 1992470
+2022-04-14 12:55:16,377 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:3:1]: Status change from - to WaitingForReturnCode
+2022-04-14 13:00:02,443 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:3:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 13:40:08,428 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:4:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 13:40:08,434 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:4:1]: `ipdSummary \
+  --log-level INFO \
+  --numWorkers 15 \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-4/inputs/-1836771770/mapped.chunk4.alignmentset.xml \
+  --reference /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-4/inputs/1947401950/smrtlink_reference.referenceset.xml \
+  --gff basemods.gff \
+  --csv basemods.csv \
+  --bigwig ipds.bw \
+  --pvalue 0.001 \
+  --alignmentSetRefWindows \
+  --identify m4C,m6A \
+   \`
+2022-04-14 13:40:08,435 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:4:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-ipdsummary/shard-4/execution/script
+2022-04-14 13:40:11,398 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:4:1]: job id: 1996136
+2022-04-14 13:40:11,399 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:4:1]: Status change from - to WaitingForReturnCode
+2022-04-14 13:43:46,884 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.ipdsummary:4:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 13:43:52,864 INFO  - c99b9f74-6340-401a-8cd5-9d213adb49c1-SubWorkflowActor-SubWorkflow-wf_basemods:-1:1 [UUID(c99b9f74)]: Starting wf_basemods.gather_bigwig, wf_basemods.gather_basemods_gff, wf_basemods.gather_basemods_csv
+2022-04-14 14:17:59,427 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(72b80c74)coverage_reports.pbreports_coverage:NA:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 14:17:59,435 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(72b80c74)coverage_reports.pbreports_coverage:NA:1]: `python3 \
+  -m pbreports.report.coverage \
+  --log-level INFO \
+  --gc-cov-plot /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-coverage_reports/coverage_reports/72b80c74-ace3-4f13-be95-dfb68c0bee26/call-pbreports_coverage/inputs/291985083/gc_coverage_boxplot.png \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-coverage_reports/coverage_reports/72b80c74-ace3-4f13-be95-dfb68c0bee26/call-pbreports_coverage/inputs/1947401950/smrtlink_reference.referenceset.xml /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-coverage_reports/coverage_reports/72b80c74-ace3-4f13-be95-dfb68c0bee26/call-pbreports_coverage/inputs/299268780/coverage.gff \
+  coverage.report.json`
+2022-04-14 14:17:59,437 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(72b80c74)coverage_reports.pbreports_coverage:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-coverage_reports/coverage_reports/72b80c74-ace3-4f13-be95-dfb68c0bee26/call-pbreports_coverage/execution/script
+2022-04-14 14:18:01,389 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(72b80c74)coverage_reports.pbreports_coverage:NA:1]: job id: 1999487
+2022-04-14 14:18:01,390 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(72b80c74)coverage_reports.pbreports_coverage:NA:1]: Status change from - to WaitingForReturnCode
+2022-04-14 14:18:03,974 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(72b80c74)coverage_reports.pbreports_coverage:NA:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 14:18:07,114 INFO  - 72b80c74-ace3-4f13-be95-dfb68c0bee26-SubWorkflowActor-SubWorkflow-coverage_reports:-1:1 [UUID(72b80c74)]: Workflow coverage_reports complete. Final Outputs:
+{
+  "coverage_reports.report_coverage": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-coverage_reports/coverage_reports/72b80c74-ace3-4f13-be95-dfb68c0bee26/call-pbreports_coverage/execution/coverage.report.json",
+  "coverage_reports.report_target_coverage": null,
+  "coverage_reports.plot_target_coverage_png": null,
+  "coverage_reports.coverage_gff": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-coverage_reports/coverage_reports/72b80c74-ace3-4f13-be95-dfb68c0bee26/call-summarize_coverage/execution/coverage.gff"
+}
+2022-04-14 14:44:47,427 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.gather_basemods_gff:NA:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 14:44:47,440 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.gather_basemods_gff:NA:1]: `python3 \
+  -m pbcoretools.tasks.gather \
+  --log-level INFO \
+   \
+  basemods.gff \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_gff/inputs/1256715719/basemods.gff /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_gff/inputs/-540235640/basemods.gff /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_gff/inputs/1957780297/basemods.gff /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_gff/inputs/160828938/basemods.gff /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_gff/inputs/-1636122421/basemods.gff /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_gff/inputs/861893516/basemods.gff /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_gff/inputs/-935057843/basemods.gff /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_gff/inputs/1562958094/basemods.gff`
+2022-04-14 14:44:47,442 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.gather_basemods_gff:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_gff/execution/script
+2022-04-14 14:44:51,377 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.gather_basemods_gff:NA:1]: job id: 2002680
+2022-04-14 14:44:51,377 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.gather_basemods_gff:NA:1]: Status change from - to Done
+2022-04-14 14:44:54,655 INFO  - c99b9f74-6340-401a-8cd5-9d213adb49c1-SubWorkflowActor-SubWorkflow-wf_basemods:-1:1 [UUID(c99b9f74)]: Starting wf_basemods.find_motifs
+2022-04-14 15:25:53,427 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.gather_bigwig:NA:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 15:25:53,438 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.gather_bigwig:NA:1]: `python3 \
+  -m kineticsTools.tasks.gather_bigwig \
+  --log-level INFO \
+  ipds.bw \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_bigwig/inputs/1256715719/ipds.bw /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_bigwig/inputs/-540235640/ipds.bw /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_bigwig/inputs/1957780297/ipds.bw /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_bigwig/inputs/160828938/ipds.bw /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_bigwig/inputs/-1636122421/ipds.bw /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_bigwig/inputs/861893516/ipds.bw /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_bigwig/inputs/-935057843/ipds.bw /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_bigwig/inputs/1562958094/ipds.bw`
+2022-04-14 15:25:53,440 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.gather_bigwig:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_bigwig/execution/script
+2022-04-14 15:25:56,377 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.gather_bigwig:NA:1]: job id: 2006593
+2022-04-14 15:25:56,377 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.gather_bigwig:NA:1]: Status change from - to Done
+2022-04-14 16:04:29,428 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.gather_basemods_csv:NA:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 16:04:29,440 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.gather_basemods_csv:NA:1]: `python3 \
+  -m pbcoretools.tasks.gather \
+  --log-level INFO \
+   \
+  basemods.csv \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_csv/inputs/1256715719/basemods.csv /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_csv/inputs/-540235640/basemods.csv /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_csv/inputs/1957780297/basemods.csv /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_csv/inputs/160828938/basemods.csv /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_csv/inputs/-1636122421/basemods.csv /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_csv/inputs/861893516/basemods.csv /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_csv/inputs/-935057843/basemods.csv /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_csv/inputs/1562958094/basemods.csv`
+2022-04-14 16:04:29,441 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.gather_basemods_csv:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_csv/execution/script
+2022-04-14 16:04:31,377 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.gather_basemods_csv:NA:1]: job id: 2009809
+2022-04-14 16:04:31,377 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.gather_basemods_csv:NA:1]: Status change from - to Done
+2022-04-14 16:04:36,334 INFO  - c99b9f74-6340-401a-8cd5-9d213adb49c1-SubWorkflowActor-SubWorkflow-wf_basemods:-1:1 [UUID(c99b9f74)]: Starting wf_basemods.modifications_report
+2022-04-14 16:42:32,427 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.find_motifs:NA:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 16:42:32,432 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.find_motifs:NA:1]: `python3 <<EOF
+from pbcore.io import ReferenceSet
+import os
+fasta_file = ReferenceSet("/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-find_motifs/inputs/1947401950/smrtlink_reference.referenceset.xml", skipCounts=True).toExternalFiles()[0]
+os.symlink(fasta_file, "reference.fasta")
+EOF
+motifMaker find \
+  --parallelize \
+  --gff /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-find_motifs/inputs/-1345407180/basemods.gff \
+  --fasta reference.fasta \
+  --output motifs.csv \
+  --minScore 100`
+2022-04-14 16:42:32,434 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.find_motifs:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-find_motifs/execution/script
+2022-04-14 16:42:36,395 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.find_motifs:NA:1]: job id: 2013535
+2022-04-14 16:42:36,396 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.find_motifs:NA:1]: Status change from - to WaitingForReturnCode
+2022-04-14 16:43:04,334 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.find_motifs:NA:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 16:43:06,514 INFO  - c99b9f74-6340-401a-8cd5-9d213adb49c1-SubWorkflowActor-SubWorkflow-wf_basemods:-1:1 [UUID(c99b9f74)]: Starting wf_basemods.reprocess_motifs
+2022-04-14 16:56:29,425 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.modifications_report:NA:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 16:56:29,430 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.modifications_report:NA:1]: `python3 \
+  -m pbreports.report.modifications \
+  --log-level INFO \
+  --modqv-cutoff 100 \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-modifications_report/inputs/-1475137773/basemods.csv \
+  modifications.report.json`
+2022-04-14 16:56:29,432 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.modifications_report:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-modifications_report/execution/script
+2022-04-14 16:56:31,375 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.modifications_report:NA:1]: job id: 2015330
+2022-04-14 16:56:31,376 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.modifications_report:NA:1]: Status change from - to WaitingForReturnCode
+2022-04-14 16:56:36,753 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.modifications_report:NA:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 16:59:34,425 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.reprocess_motifs:NA:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 16:59:34,432 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.reprocess_motifs:NA:1]: `motifMaker reprocess \
+  --gff /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-reprocess_motifs/inputs/-1345407180/basemods.gff \
+  --motifs /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-reprocess_motifs/inputs/1338635184/motifs.csv \
+  --fasta /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-reprocess_motifs/inputs/1338635184/reference.fasta \
+  --output motifs.gff \
+  --minFraction 0.3`
+2022-04-14 16:59:34,434 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.reprocess_motifs:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-reprocess_motifs/execution/script
+2022-04-14 16:59:36,385 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.reprocess_motifs:NA:1]: job id: 2016550
+2022-04-14 16:59:36,386 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.reprocess_motifs:NA:1]: Status change from - to Done
+2022-04-14 16:59:39,983 INFO  - c99b9f74-6340-401a-8cd5-9d213adb49c1-SubWorkflowActor-SubWorkflow-wf_basemods:-1:1 [UUID(c99b9f74)]: Starting wf_basemods.motifs_report
+2022-04-14 17:01:14,425 WARN  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.motifs_report:NA:1]: Unrecognized runtime attribute keys: cpu, memory
+2022-04-14 17:01:14,434 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.motifs_report:NA:1]: `python3 \
+  -m pbreports.report.motifs \
+  --log-level INFO \
+  /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-motifs_report/inputs/-736010221/motifs.gff /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-motifs_report/inputs/1338635184/motifs.csv \
+  motifs.report.json \
+  --maxMotifs 10 \
+  --modqv-cutoff 100 \
+  --kinetics-csv /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-motifs_report/inputs/-1475137773/basemods.csv \
+  --reference /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-motifs_report/inputs/1947401950/smrtlink_reference.referenceset.xml`
+2022-04-14 17:01:14,436 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.motifs_report:NA:1]: executing: /bin/bash /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-motifs_report/execution/script
+2022-04-14 17:01:16,376 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.motifs_report:NA:1]: job id: 2017687
+2022-04-14 17:01:16,377 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.motifs_report:NA:1]: Status change from - to WaitingForReturnCode
+2022-04-14 17:01:21,374 INFO  - BackgroundConfigAsyncJobExecutionActor [UUID(c99b9f74)wf_basemods.motifs_report:NA:1]: Status change from WaitingForReturnCode to Done
+2022-04-14 17:01:26,064 INFO  - c99b9f74-6340-401a-8cd5-9d213adb49c1-SubWorkflowActor-SubWorkflow-wf_basemods:-1:1 [UUID(c99b9f74)]: Workflow wf_basemods complete. Final Outputs:
+{
+  "wf_basemods.basemods_gff": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_gff/execution/basemods.gff",
+  "wf_basemods.motifs_csv": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-find_motifs/execution/motifs.csv",
+  "wf_basemods.motifs_gff": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-reprocess_motifs/execution/motifs.gff",
+  "wf_basemods.basemods_csv": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_csv/execution/basemods.csv",
+  "wf_basemods.bigwig_file": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_bigwig/execution/ipds.bw",
+  "wf_basemods.report_motifs": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-motifs_report/execution/motifs.report.json",
+  "wf_basemods.report_modifications": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-modifications_report/execution/modifications.report.json"
+}
+2022-04-14 17:01:27,143 INFO  - WorkflowExecutionActor-4b7684e9-97a8-4b2e-a83d-10751c095c4b [UUID(4b7684e9)]: Workflow pb_basemods complete. Final Outputs:
+{
+  "pb_basemods.report_modifications": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-modifications_report/execution/modifications.report.json",
+  "pb_basemods.basemods_gff": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_gff/execution/basemods.gff",
+  "pb_basemods.motifs_csv": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-find_motifs/execution/motifs.csv",
+  "pb_basemods.basemods_csv": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_basemods_csv/execution/basemods.csv",
+  "pb_basemods.report_mapping_stats": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-mapping_stats/execution/mapping_stats.report.json",
+  "pb_basemods.mapped_bam_datastore": null,
+  "pb_basemods.motifs_gff": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-reprocess_motifs/execution/motifs.gff",
+  "pb_basemods.report_motifs": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-motifs_report/execution/motifs.report.json",
+  "pb_basemods.report_coverage": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-coverage_reports/coverage_reports/72b80c74-ace3-4f13-be95-dfb68c0bee26/call-pbreports_coverage/execution/coverage.report.json",
+  "pb_basemods.bigwig_file": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-wf_basemods/wf_basemods/c99b9f74-6340-401a-8cd5-9d213adb49c1/call-gather_bigwig/execution/ipds.bw",
+  "pb_basemods.mapped": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-mapping/mapping/027c7883-9f37-4703-8f49-56998780c6a3/call-gather_alignments/execution/mapped.alignmentset.xml",
+  "pb_basemods.coverage_gff": "/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/4b7684e9-97a8-4b2e-a83d-10751c095c4b/call-coverage_reports/coverage_reports/72b80c74-ace3-4f13-be95-dfb68c0bee26/call-summarize_coverage/execution/coverage.gff"
+}
+2022-04-14 17:01:27,589 INFO  - $i [UUID(4b7684e9)]: Copying workflow logs from /pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-workflow-logs/workflow.4b7684e9-97a8-4b2e-a83d-10751c095c4b.log to /pub33/pbio10/smrtlink/userdata/jobs_root/0000/0000001/0000001017/logs/workflow.4b7684e9-97a8-4b2e-a83d-10751c095c4b.log
