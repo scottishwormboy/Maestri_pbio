@@ -1,0 +1,37 @@
+{
+    "_comment": "Generated with pbcommand version  at 2022-04-14T16:58:14.114988",
+    "attributes": [],
+    "dataset_uuids": [],
+    "id": "modifications",
+    "plotGroups": [
+        {
+            "id": "modifications.kinetic_detections",
+            "legend": null,
+            "plots": [
+                {
+                    "caption": "Per-Base Kinetic Detections",
+                    "id": "modifications.kinetic_detections.kinetic_scatter",
+                    "image": "kinetic_detections.png",
+                    "plotType": "image",
+                    "thumbnail": "kinetic_detections_thumb.png",
+                    "title": "Per-Base Kinetic Detections"
+                },
+                {
+                    "caption": "Kinetic Detections Histogram",
+                    "id": "modifications.kinetic_detections.kinetic_histogram",
+                    "image": "kinetic_histogram.png",
+                    "plotType": "image",
+                    "thumbnail": "kinetic_histogram_thumb.png",
+                    "title": "Kinetic Detections Histogram"
+                }
+            ],
+            "thumbnail": "kinetic_detections_thumb.png",
+            "title": "Kinetic Detections"
+        }
+    ],
+    "tables": [],
+    "tags": [],
+    "title": "Base Modifications",
+    "uuid": "97c6e080-626c-467b-b113-3ba82bf7daf9",
+    "version": "1.0.1"
+}

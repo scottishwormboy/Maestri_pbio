@@ -1,0 +1,260 @@
+{
+    "_comment": "Generated with pbcommand version  at 2022-04-14T11:07:15.718044",
+    "attributes": [
+        {
+            "id": "mapping_stats.pct_bases_mapped",
+            "name": "Percentage of Bases (mapped)",
+            "value": 0.5031093372527562
+        },
+        {
+            "id": "mapping_stats.all_subreads_n",
+            "name": "Number of Subreads (total)",
+            "value": 7046382
+        },
+        {
+            "id": "mapping_stats.mapped_subreads_n",
+            "name": "Number of Subreads (mapped)",
+            "value": 2401374
+        },
+        {
+            "id": "mapping_stats.unmapped_subreads_n",
+            "name": "Number of Subreads (unmapped)",
+            "value": 4645008
+        },
+        {
+            "id": "mapping_stats.pct_subreads_mapped",
+            "name": "Percentage of Subreads (mapped)",
+            "value": 0.3407953187891318
+        },
+        {
+            "id": "mapping_stats.pct_subreads_unmapped",
+            "name": "Percentage of Subreads (unmapped)",
+            "value": 0.6592046812108682
+        },
+        {
+            "id": "mapping_stats.blast_identity",
+            "name": "Mean Concordance (mapped)",
+            "value": 0.8818276752097266
+        },
+        {
+            "id": "mapping_stats.pb_identity",
+            "name": "Mean Concordance (mapped, old PacBio formula)",
+            "value": 0.874263988620499
+        },
+        {
+            "id": "mapping_stats.gap_compressed_identity",
+            "name": "Mean Concordance (mapped, gap-compressed)",
+            "value": 0.9060046028969764
+        },
+        {
+            "id": "mapping_stats.mapped_subread_bases_n",
+            "name": "Number of Subread Bases (mapped)",
+            "value": 11330736902
+        },
+        {
+            "id": "mapping_stats.mapped_alignments_n",
+            "name": "Number of Alignments",
+            "value": 2456273
+        },
+        {
+            "id": "mapping_stats.mapped_subread_readlength_mean",
+            "name": "Alignment Length Mean (mapped)",
+            "value": 4612
+        },
+        {
+            "id": "mapping_stats.mapped_subreadlength_n50",
+            "name": "Alignment Length N50 (mapped)",
+            "value": 8373
+        },
+        {
+            "id": "mapping_stats.mapped_subreadlength_q95",
+            "name": "Alignment Length 95% (mapped)",
+            "value": 12458
+        },
+        {
+            "id": "mapping_stats.mapped_subread_readlength_max",
+            "name": "Alignment Length Max (mapped)",
+            "value": 42672
+        },
+        {
+            "id": "mapping_stats.mapped_reads_n",
+            "name": "Number of Polymerase Reads (mapped)",
+            "value": 178453
+        },
+        {
+            "id": "mapping_stats.mapped_readlength_mean",
+            "name": "Polymerase Read Length Mean (mapped)",
+            "value": 69544
+        },
+        {
+            "id": "mapping_stats.mapped_readlength_n50",
+            "name": "Polymerase Read N50 (mapped)",
+            "value": 108510
+        },
+        {
+            "id": "mapping_stats.mapped_readlength_q95",
+            "name": "Polymerase Read Length 95% (mapped)",
+            "value": 130402
+        },
+        {
+            "id": "mapping_stats.mapped_readlength_max",
+            "name": "Polymerase Read Length Max (mapped)",
+            "value": 172801
+        }
+    ],
+    "dataset_uuids": [
+        "6ed9d3e5-a895-af29-a6c7-3064d9b936d4",
+        "306fd657-68b0-46e6-836b-86fe1035c418"
+    ],
+    "id": "mapping_stats",
+    "plotGroups": [
+        {
+            "id": "mapping_stats.readlength_plot",
+            "legend": null,
+            "plots": [
+                {
+                    "caption": "Mapped Polymerase Read Length",
+                    "id": "mapping_stats.readlength_plot.readlength_plot",
+                    "image": "mapped_readlength_histogram.png",
+                    "plotType": "image",
+                    "thumbnail": "mapped_readlength_histogram_thumb.png",
+                    "title": "Mapped Polymerase Read Length"
+                }
+            ],
+            "thumbnail": "mapped_readlength_histogram_thumb.png",
+            "title": "Mapped Polymerase Read Length"
+        },
+        {
+            "id": "mapping_stats.subreadlength_plot",
+            "legend": null,
+            "plots": [
+                {
+                    "caption": "Alignment Length",
+                    "id": "mapping_stats.subreadlength_plot.subreadlength_plot",
+                    "image": "mapped_subreadlength_histogram.png",
+                    "plotType": "image",
+                    "thumbnail": "mapped_subreadlength_histogram_thumb.png",
+                    "title": "Alignment Length"
+                }
+            ],
+            "thumbnail": "mapped_subreadlength_histogram_thumb.png",
+            "title": "Alignment Length"
+        },
+        {
+            "id": "mapping_stats.subread_concordance_group",
+            "legend": null,
+            "plots": [
+                {
+                    "caption": "Alignment Concordance",
+                    "id": "mapping_stats.subread_concordance_group.concordance_plot",
+                    "image": "mapped_subread_concordance_histogram.png",
+                    "plotType": "image",
+                    "thumbnail": "mapped_subread_concordance_histogram_thumb.png",
+                    "title": "Alignment Concordance"
+                }
+            ],
+            "thumbnail": "mapped_subread_concordance_histogram_thumb.png",
+            "title": "Alignment Concordance"
+        },
+        {
+            "id": "mapping_stats.rainbow_plot",
+            "legend": null,
+            "plots": [
+                {
+                    "caption": "Mapped Concordance vs. Alignment Length",
+                    "id": "mapping_stats.rainbow_plot.rainbow_plot",
+                    "image": "mapped_concordance_vs_read_length.png",
+                    "plotType": "image",
+                    "thumbnail": "mapped_concordance_vs_read_length_thumb.png",
+                    "title": "Mapped Concordance vs. Alignment Length"
+                }
+            ],
+            "thumbnail": "mapped_concordance_vs_read_length_thumb.png",
+            "title": "Mapped Concordance vs. Alignment Length"
+        }
+    ],
+    "tables": [
+        {
+            "columns": [
+                {
+                    "header": "Sample",
+                    "id": "mapping_stats.mapping_stats_table.sample",
+                    "values": [
+                        "All Samples",
+                        "27402_2"
+                    ]
+                },
+                {
+                    "header": "Movie",
+                    "id": "mapping_stats.mapping_stats_table.movie",
+                    "values": [
+                        "All Movies",
+                        "m64157e_220309_133604"
+                    ]
+                },
+                {
+                    "header": "Number of Polymerase Reads (mapped)",
+                    "id": "mapping_stats.mapping_stats_table.mapped_reads",
+                    "values": [
+                        178453,
+                        178453
+                    ]
+                },
+                {
+                    "header": "Polymerase Read Length Mean (mapped)",
+                    "id": "mapping_stats.mapping_stats_table.mapped_polymerase_read_length",
+                    "values": [
+                        69544,
+                        69544
+                    ]
+                },
+                {
+                    "header": "Polymerase Read N50 (mapped)",
+                    "id": "mapping_stats.mapping_stats_table.mapped_polymerase_read_length_n50",
+                    "values": [
+                        108510,
+                        108510
+                    ]
+                },
+                {
+                    "header": "Number of Subreads (mapped)",
+                    "id": "mapping_stats.mapping_stats_table.mapped_subreads",
+                    "values": [
+                        2401374,
+                        2401374
+                    ]
+                },
+                {
+                    "header": "Number of Subread Bases (mapped)",
+                    "id": "mapping_stats.mapping_stats_table.mapped_subread_base",
+                    "values": [
+                        11330736902,
+                        11330736902
+                    ]
+                },
+                {
+                    "header": "Subread Length Mean (mapped)",
+                    "id": "mapping_stats.mapping_stats_table.mapped_subread_length",
+                    "values": [
+                        4612,
+                        4612
+                    ]
+                },
+                {
+                    "header": "Mean Concordance (mapped)",
+                    "id": "mapping_stats.mapping_stats_table.blast_identity",
+                    "values": [
+                        0.8818276752097266,
+                        0.8818276752097266
+                    ]
+                }
+            ],
+            "id": "mapping_stats.mapping_stats_table",
+            "title": "Mapping Statistics Summary"
+        }
+    ],
+    "tags": [],
+    "title": "Report mapping_stats",
+    "uuid": "cfcffbdd-847b-46f2-bd3c-7c6b44d34ddb",
+    "version": "1.0.1"
+}

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pbds:AlignmentSet xmlns:pbbase="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" xmlns:pbds="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:pbmeta="http://pacificbiosciences.com/PacBioCollectionMetadata.xsd" xmlns:pbrk="http://pacificbiosciences.com/PacBioReagentKit.xsd" xmlns:pbsample="http://pacificbiosciences.com/PacBioSampleInfo.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CreatedAt="2022-04-14T10:06:36" MetaType="PacBio.DataSet.AlignmentSet" Name="Mapped Reads" TimeStampedName="pacbio_dataset_alignmentset-220414_100636529" UniqueId="03a8a25a-49a7-066a-5500-651d3ddce0f6" Version="3.0.1" xsi:schemaLocation="http://pacificbiosciences.com/PacBioDatasets.xsd" Tags="">
+	<pbbase:ExternalResources>
+		<pbbase:ExternalResource CreatedAt="2022-04-14T09:40:37.357Z" MetaType="PacBio.AlignmentFile.AlignmentBamFile" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-0/execution/mapped.bam" TimeStampedName="pacbio_alignmentfile_alignmentbamfile-220414_094037357" UniqueId="b51ac982-25ce-4e1d-a648-62fdb1e075a5" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2022-04-14T09:40:37.357Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-0/execution/mapped.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-220414_094037357" UniqueId="38948a2c-c350-468e-b2fe-90cdd2d53543" Version="3.0.1"/>
+				<pbbase:FileIndex CreatedAt="2022-04-14T09:40:37.357Z" MetaType="PacBio.Index.BamIndex" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-0/execution/mapped.bam.bai" TimeStampedName="pacbio_index_bamindex-220414_094037357" UniqueId="a0acdd18-6625-4a52-9b21-13b43b20eb4e" Version="3.0.1"/>
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2022-04-14T09:40:37.357Z" MetaType="PacBio.ReferenceFile.ReferenceFastaFile" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/sl_import_fasta/e8764494-22f0-4850-bd81-2e7faded5986/call-fasta_to_reference/execution/reference.fasta" TimeStampedName="pacbio_referencefile_referencefastafile-220414_094037357" UniqueId="93892741-2a02-4bc5-b16c-54403e469807" Version="3.0.1">
+					<pbbase:FileIndices/>
+				</pbbase:ExternalResource>
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2022-04-14T09:29:28.808Z" MetaType="PacBio.AlignmentFile.AlignmentBamFile" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-1/execution/mapped.bam" TimeStampedName="pacbio_alignmentfile_alignmentbamfile-220414_092928808" UniqueId="987804b4-6676-4551-bce8-3100bc489a1d" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2022-04-14T09:29:28.808Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-1/execution/mapped.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-220414_092928808" UniqueId="7ba72016-c772-4a0e-b5da-fa1ceb017281" Version="3.0.1"/>
+				<pbbase:FileIndex CreatedAt="2022-04-14T09:29:28.808Z" MetaType="PacBio.Index.BamIndex" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-1/execution/mapped.bam.bai" TimeStampedName="pacbio_index_bamindex-220414_092928808" UniqueId="2773ec59-5bbf-4740-a8ae-d54bdc793dfc" Version="3.0.1"/>
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2022-04-14T09:29:28.808Z" MetaType="PacBio.ReferenceFile.ReferenceFastaFile" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/sl_import_fasta/e8764494-22f0-4850-bd81-2e7faded5986/call-fasta_to_reference/execution/reference.fasta" TimeStampedName="pacbio_referencefile_referencefastafile-220414_092928808" UniqueId="8f920b3f-d0f8-48d3-97ba-16529c5c33b1" Version="3.0.1">
+					<pbbase:FileIndices/>
+				</pbbase:ExternalResource>
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2022-04-14T10:05:06.171Z" MetaType="PacBio.AlignmentFile.AlignmentBamFile" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-2/execution/mapped.bam" TimeStampedName="pacbio_alignmentfile_alignmentbamfile-220414_100506171" UniqueId="48a6fce5-ba7e-458b-a906-7d12caf79738" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2022-04-14T10:05:06.171Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-2/execution/mapped.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-220414_100506171" UniqueId="0adc5391-20c4-4fe6-939c-4e6298826045" Version="3.0.1"/>
+				<pbbase:FileIndex CreatedAt="2022-04-14T10:05:06.171Z" MetaType="PacBio.Index.BamIndex" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-2/execution/mapped.bam.bai" TimeStampedName="pacbio_index_bamindex-220414_100506171" UniqueId="3bbe57c2-79ef-4650-8086-62fd658f6c2d" Version="3.0.1"/>
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2022-04-14T10:05:06.171Z" MetaType="PacBio.ReferenceFile.ReferenceFastaFile" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/sl_import_fasta/e8764494-22f0-4850-bd81-2e7faded5986/call-fasta_to_reference/execution/reference.fasta" TimeStampedName="pacbio_referencefile_referencefastafile-220414_100506171" UniqueId="a5203d9a-529c-43cd-83f4-c3f63caef335" Version="3.0.1">
+					<pbbase:FileIndices/>
+				</pbbase:ExternalResource>
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2022-04-14T09:24:00.24Z" MetaType="PacBio.AlignmentFile.AlignmentBamFile" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-3/execution/mapped.bam" TimeStampedName="pacbio_alignmentfile_alignmentbamfile-220414_09240024" UniqueId="d948cd10-9ac1-4f4b-9061-4196f9ab6a88" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2022-04-14T09:24:00.24Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-3/execution/mapped.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-220414_09240024" UniqueId="6a0e8dce-a44d-4cd2-add5-696328626e33" Version="3.0.1"/>
+				<pbbase:FileIndex CreatedAt="2022-04-14T09:24:00.24Z" MetaType="PacBio.Index.BamIndex" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-3/execution/mapped.bam.bai" TimeStampedName="pacbio_index_bamindex-220414_09240024" UniqueId="80ec6bd1-bfc2-4411-83e2-5b10c3f9e0a6" Version="3.0.1"/>
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2022-04-14T09:24:00.24Z" MetaType="PacBio.ReferenceFile.ReferenceFastaFile" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/sl_import_fasta/e8764494-22f0-4850-bd81-2e7faded5986/call-fasta_to_reference/execution/reference.fasta" TimeStampedName="pacbio_referencefile_referencefastafile-220414_09240024" UniqueId="8a32e14d-8120-4096-a76f-2f7e599600b0" Version="3.0.1">
+					<pbbase:FileIndices/>
+				</pbbase:ExternalResource>
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2022-04-14T09:51:41.41Z" MetaType="PacBio.AlignmentFile.AlignmentBamFile" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-4/execution/mapped.bam" TimeStampedName="pacbio_alignmentfile_alignmentbamfile-220414_09514141" UniqueId="5aac99d9-bcf1-4bfb-81ad-f086d8a4b3e2" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2022-04-14T09:51:41.41Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-4/execution/mapped.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-220414_09514141" UniqueId="370b2302-1faf-4914-8515-40dff6359193" Version="3.0.1"/>
+				<pbbase:FileIndex CreatedAt="2022-04-14T09:51:41.41Z" MetaType="PacBio.Index.BamIndex" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-4/execution/mapped.bam.bai" TimeStampedName="pacbio_index_bamindex-220414_09514141" UniqueId="299ef3c3-a6f8-4945-86cc-1a80bd3e5a00" Version="3.0.1"/>
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2022-04-14T09:51:41.41Z" MetaType="PacBio.ReferenceFile.ReferenceFastaFile" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/sl_import_fasta/e8764494-22f0-4850-bd81-2e7faded5986/call-fasta_to_reference/execution/reference.fasta" TimeStampedName="pacbio_referencefile_referencefastafile-220414_09514141" UniqueId="05e6c18a-5f29-448e-95b4-a5c0667c730a" Version="3.0.1">
+					<pbbase:FileIndices/>
+				</pbbase:ExternalResource>
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2022-04-14T09:58:25.758Z" MetaType="PacBio.AlignmentFile.AlignmentBamFile" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-5/execution/mapped.bam" TimeStampedName="pacbio_alignmentfile_alignmentbamfile-220414_095825758" UniqueId="2da27329-ab38-4524-88cf-542d27f38ce2" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2022-04-14T09:58:25.758Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-5/execution/mapped.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-220414_095825758" UniqueId="84fdce07-8a83-47eb-8fdf-f7c2eb062e21" Version="3.0.1"/>
+				<pbbase:FileIndex CreatedAt="2022-04-14T09:58:25.758Z" MetaType="PacBio.Index.BamIndex" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-5/execution/mapped.bam.bai" TimeStampedName="pacbio_index_bamindex-220414_095825758" UniqueId="e6c67de8-058d-4739-98d3-b175d84e3414" Version="3.0.1"/>
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2022-04-14T09:58:25.758Z" MetaType="PacBio.ReferenceFile.ReferenceFastaFile" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/sl_import_fasta/e8764494-22f0-4850-bd81-2e7faded5986/call-fasta_to_reference/execution/reference.fasta" TimeStampedName="pacbio_referencefile_referencefastafile-220414_095825758" UniqueId="41ef6f18-6a35-4478-adbb-5bc9d59933f1" Version="3.0.1">
+					<pbbase:FileIndices/>
+				</pbbase:ExternalResource>
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2022-04-14T09:46:45.534Z" MetaType="PacBio.AlignmentFile.AlignmentBamFile" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-6/execution/mapped.bam" TimeStampedName="pacbio_alignmentfile_alignmentbamfile-220414_094645534" UniqueId="c1d82072-8f62-49ae-b1fd-3fb815c7af46" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2022-04-14T09:46:45.535Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-6/execution/mapped.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-220414_094645535" UniqueId="d18ffe9d-88cb-4e98-b8e5-dd2bc64cbb3d" Version="3.0.1"/>
+				<pbbase:FileIndex CreatedAt="2022-04-14T09:46:45.535Z" MetaType="PacBio.Index.BamIndex" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-6/execution/mapped.bam.bai" TimeStampedName="pacbio_index_bamindex-220414_094645535" UniqueId="cb8ccd25-73d8-4101-b50c-d185c889ab7e" Version="3.0.1"/>
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2022-04-14T09:46:45.535Z" MetaType="PacBio.ReferenceFile.ReferenceFastaFile" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/sl_import_fasta/e8764494-22f0-4850-bd81-2e7faded5986/call-fasta_to_reference/execution/reference.fasta" TimeStampedName="pacbio_referencefile_referencefastafile-220414_094645535" UniqueId="549344da-951c-46ad-86d3-f09003d170e0" Version="3.0.1">
+					<pbbase:FileIndices/>
+				</pbbase:ExternalResource>
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2022-04-14T09:34:55.607Z" MetaType="PacBio.AlignmentFile.AlignmentBamFile" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-7/execution/mapped.bam" TimeStampedName="pacbio_alignmentfile_alignmentbamfile-220414_093455607" UniqueId="3c8893c4-da11-4706-be4e-94c55173f2a5" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2022-04-14T09:34:55.607Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-7/execution/mapped.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-220414_093455607" UniqueId="859915e1-26d4-4dba-b70c-47384106d286" Version="3.0.1"/>
+				<pbbase:FileIndex CreatedAt="2022-04-14T09:34:55.607Z" MetaType="PacBio.Index.BamIndex" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/pb_basemods/54763ed2-dde2-428a-93cf-c1f9e7e5c80b/call-mapping/mapping/8496ffd7-64fb-496f-b118-14805287e865/call-pbmm2_align/shard-7/execution/mapped.bam.bai" TimeStampedName="pacbio_index_bamindex-220414_093455607" UniqueId="fe996ee7-1a75-48ad-b9b2-9668508f4eed" Version="3.0.1"/>
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2022-04-14T09:34:55.607Z" MetaType="PacBio.ReferenceFile.ReferenceFastaFile" ResourceId="/pub33/pbio10/smrtlink/userdata/jobs_root.default/cromwell-executions/sl_import_fasta/e8764494-22f0-4850-bd81-2e7faded5986/call-fasta_to_reference/execution/reference.fasta" TimeStampedName="pacbio_referencefile_referencefastafile-220414_093455607" UniqueId="b0a82953-5250-4584-b964-313f11dff628" Version="3.0.1">
+					<pbbase:FileIndices/>
+				</pbbase:ExternalResource>
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+	</pbbase:ExternalResources>
+	<pbds:DataSetMetadata>
+		<pbds:TotalLength>9157458721</pbds:TotalLength>
+		<pbds:NumRecords>1872356</pbds:NumRecords>
+		<pbmeta:Collections>
+			<pbmeta:CollectionMetadata Context="m64157e_220309_133604" CreatedAt="2022-03-09T13:02:23.373Z" InstrumentId="64157e" InstrumentName="64157E" MetaType="CollectionMetadata" ModifiedAt="0001-01-01T00:00:00" Status="Ready" TimeStampedName="64157e-CollectionMetadata-2022-13-09T13:13:47.661Z" UniqueId="1ccc62dc-473c-4e85-9a62-188ef8f2acdb" Version="3.0.1">
+				<pbmeta:MultiJobId>0</pbmeta:MultiJobId>
+				<pbmeta:ConsensusReadSetRef UniqueId="dcd13350-9cce-422f-b71e-297038a3544a"/>
+				<pbmeta:InstCtrlVer>10.1.0.119549</pbmeta:InstCtrlVer>
+				<pbmeta:SigProcVer>10.1.0.119549</pbmeta:SigProcVer>
+				<pbmeta:RunDetails>
+					<pbmeta:TimeStampedName>r64157e_20220309_131347</pbmeta:TimeStampedName>
+					<pbmeta:Name>Run 03.09.2022 12:56</pbmeta:Name>
+					<pbmeta:CreatedBy>admin</pbmeta:CreatedBy>
+					<pbmeta:WhenCreated>2022-03-09T13:02:23.373Z</pbmeta:WhenCreated>
+					<pbmeta:StartedBy>unknown</pbmeta:StartedBy>
+					<pbmeta:WhenStarted>0001-01-01T00:00:00</pbmeta:WhenStarted>
+				</pbmeta:RunDetails>
+				<pbmeta:WellSample CreatedAt="2022-03-09T13:02:23.373Z" ModifiedAt="0001-01-01T00:00:00" Name="27402">
+					<pbmeta:WellName>A01</pbmeta:WellName>
+					<pbmeta:Application>microbialAssembly</pbmeta:Application>
+					<pbmeta:Concentration>0.0</pbmeta:Concentration>
+					<pbmeta:OnPlateLoadingConcentration>90.0</pbmeta:OnPlateLoadingConcentration>
+					<pbmeta:InsertSize>9600</pbmeta:InsertSize>
+					<pbmeta:IsoSeq>false</pbmeta:IsoSeq>
+					<pbmeta:IsCCS>false</pbmeta:IsCCS>
+					<pbmeta:SampleReuseEnabled>false</pbmeta:SampleReuseEnabled>
+					<pbmeta:StageHotstartEnabled>false</pbmeta:StageHotstartEnabled>
+					<pbmeta:SizeSelectionEnabled>false</pbmeta:SizeSelectionEnabled>
+					<pbmeta:UseCount>0</pbmeta:UseCount>
+					<pbmeta:DNAControlComplex>Sequel® II DNA Internal Control 1.0</pbmeta:DNAControlComplex>
+					<pbmeta:SampleSetupId>1151411a-074b-ace3-fed3-584e57f96f73</pbmeta:SampleSetupId>
+					<pbsample:BioSamples>
+						<pbsample:BioSample Name="27402_8">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2024--bc2024" UniqueId="c646eae8-d69e-4784-a018-5d0bd6c8fcd0"/>
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+					</pbsample:BioSamples>
+				</pbmeta:WellSample>
+				<pbmeta:Automation Name="Diffusion">
+					<pbbase:AutomationParameters>
+						<pbbase:AutomationParameter CreatedAt="2022-03-09T13:02:23.373Z" ModifiedAt="0001-01-01T00:00:00" Name="ReuseSample" SimpleValue="False" ValueDataType="String"/>
+						<pbbase:AutomationParameter CreatedAt="2022-03-09T13:02:23.373Z" ModifiedAt="0001-01-01T00:00:00" Name="ImmobilizationTime" SimpleValue="120" ValueDataType="Double"/>
+						<pbbase:AutomationParameter CreatedAt="2022-03-09T13:02:23.373Z" ModifiedAt="0001-01-01T00:00:00" Name="ExtendFirst" SimpleValue="True" ValueDataType="Boolean"/>
+						<pbbase:AutomationParameter CreatedAt="2022-03-09T13:02:23.373Z" ModifiedAt="0001-01-01T00:00:00" Name="ExtensionTime" SimpleValue="120" ValueDataType="Double"/>
+						<pbbase:AutomationParameter CreatedAt="2022-03-09T13:02:23.373Z" ModifiedAt="0001-01-01T00:00:00" Name="MovieLength" SimpleValue="900" ValueDataType="Double"/>
+						<pbbase:AutomationParameter CreatedAt="2022-03-09T13:02:23.373Z" ModifiedAt="0001-01-01T00:00:00" Name="DynamicLoadingCognate" SimpleValue="True" ValueDataType="String"/>
+						<pbbase:AutomationParameter CreatedAt="2022-03-09T13:02:23.373Z" ModifiedAt="0001-01-01T00:00:00" Name="DynamicLoadingTarget" SimpleValue="0.85" ValueDataType="Double"/>
+						<pbbase:AutomationParameter CreatedAt="2022-03-09T13:02:23.373Z" ModifiedAt="0001-01-01T00:00:00" Name="DynamicLoadingMaxImmobilization" SimpleValue="120" ValueDataType="Int32"/>
+						<pbbase:AutomationParameter Name="PCDinPlate" SimpleValue="True" ValueDataType="Boolean"/>
+						<pbbase:AutomationParameter Name="UsePredictiveLoadingBuffer" SimpleValue="True" ValueDataType="Boolean"/>
+						<pbbase:AutomationParameter Name="CollectionNumber" SimpleValue="0" ValueDataType="Int32"/>
+						<pbbase:AutomationParameter Name="InsertSize" SimpleValue="9600" ValueDataType="Int32"/>
+						<pbbase:AutomationParameter Name="PPAEstimatedDuration" SimpleValue="164.5" ValueDataType="Double"/>
+						<pbbase:AutomationParameter Name="PPAMinDuration" SimpleValue="112.0525" ValueDataType="Double"/>
+						<pbbase:AutomationParameter Name="PPAMaxDuration" SimpleValue="216.9475" ValueDataType="Double"/>
+						<pbbase:AutomationParameter Name="PPATimeout" SimpleValue="907" ValueDataType="Double"/>
+						<pbbase:AutomationParameter Name="HasN2Switch" SimpleValue="False" ValueDataType="Boolean"/>
+						<pbbase:AutomationParameter Name="TipSearchMaxDuration" SimpleValue="576" ValueDataType="Int32"/>
+						<pbbase:AutomationParameter Name="SNRCut" SimpleValue="1.5" ValueDataType="Double"/>
+						<pbbase:AutomationParameter Name="HQRFMethod" SimpleValue="N2" ValueDataType="String"/>
+					</pbbase:AutomationParameters>
+					<pbbase:Defaults xsi:nil="true"/>
+				</pbmeta:Automation>
+				<pbmeta:CollectionNumber>0</pbmeta:CollectionNumber>
+				<pbmeta:CellIndex>0</pbmeta:CellIndex>
+				<pbmeta:SetNumber>0</pbmeta:SetNumber>
+				<pbmeta:CellPac Barcode="DA152223" Description="Individual 4 Pack containing 4 SMRT®Cells each containing 7.76 million ZMWs" ExpirationDate="2023-02-10" LotNumber="418976" MovieTimeGrade="LR" Name="Sequel® II SMRT® Cell 8M (4/tray)" PartNumber="101-389-001" Version="1.0">
+					<pbbase:Defaults xsi:nil="true"/>
+					<pbbase:ChipLayout>Spider_1p0_NTO</pbbase:ChipLayout>
+				</pbmeta:CellPac>
+				<pbmeta:ControlKit Barcode="Lxxxxx101717600123199" ChipType="8mChip" Description="The Sequel Dev DNA Internal Control 1.0 contains a fixed template of 2 kb length bound to Sequel Dev Binding Kit 1.0 for use as an internal sequencing control. Reagent quantities provide spike-in controls for a minimum of 24 samples." ExpirationDate="2099-12-31" LotNumber="Lxxxxx" Name="Sequel® II DNA Internal Control 1.0" PartNumber="101-717-600" Tags="Control Kit, CCK" Version="1.0">
+					<pbbase:Defaults xsi:nil="true"/>
+					<pbbase:CustomSequence>&gt;left_adapter\nTAGAGAGAGAAAAGGAGGAGGAGGCAACAACAACAACTCTCTCTA\n&gt;right_adapter\nTAGAGAGAGAAAAGGAGGAGGAGGCAACAACAACAACTCTCTCTA\n&gt;custom_sequence\nTGTCTAGGTCATCTCAACGTAGCTTTGACATATAACTTATCTAAAGTAATCCCTGCACACCTGTATGCATTATGCTTGCTATACACGCGGACACAGGCATATCATTTATTTTTTGCCATGTCCATTAATTGTTCAATAATTTTACTCACGGTATTTAATTTGATGTTGTGTTATATAGAATTGGAATTAAACTTATAAGGATGCTTAGACGTTGCATTATAAAAGTTTATGTACTAAGTATTTAAGACATTGGCATATGATTATAGCTTGACATTATTAAAAATTAATTAATTAAATCTCACACAATACTTATTCAAGACATTTTTACTAAGATAACCAAAGGAATGCGAACAAAATAATACTTAAAATATAAGACTTAGAAGTAATATGATCCAATAGTTACATATAGTACACTAAGTTCCTAAATTATATAACTTTAAAACAAAGTTACGAAATTTGGAAATAATTTTATTTAATCATATTTTCATAATAATGAAATACTGTTTATTTCAGTGGCGAAAAGAGATAATACGATTTTATAGTGATAGAATATCCTTGAAATATCTAAAGATAAAATTAGAAACTTTCTCTTTTCGCTGTAAAGCTATATGACTTAAAAATAACTTATACGCAAAGTATATTGCAGTGGAAACCCAAGAGTATAGTAGCCATGTAATCTCGGGTTCGAAACTACACGCCGCGCACGTAGTCAGATGGTCTGAAACTTGTCTGGGGCTGTTTGTTGACGGATGGAGACTTCACTAAGTGGCGTCAGGCGATGCGCACACACGGGACTCAATCCCGTAGCATGTTATGTGTCGTTCGAAACTCGTGCGTTCGAGATTTACGCCACATTGCCGGCTGGTCCAAGGACGTTATCTACCAGATGATACGGTCCAATTCGTAAGTTTGACTCACATAGTCGCGAACCGCGGAGCTGGAGAACAATAATTACCGGATGATTAGTTGACCATACGCACTATCATGCTCCGTGACTCAGTTTCCGCCATGGAGTTCTCACAGCCCCGTGTGTACCATAACTGCAGTAAGTAAGGACCTTGTTCGGAGGCCGACTCGTATTTCATATGATCTTAGTCTCGCCACCTTATCGCACGAATTGGGGGTGTCTTTTAGCCGACTCCGGCACGATCCGCCGGGAAGTTACTCGACCAGTTGCGGGACGCCCTAGTATGTTCGTATTACGTTCGATGCGTAAGCACCCCAGAGATTTTTGGCGGACGTTTCGGTAAATCATAGTAGAACCGGAGCGGTAAAGCTATTGATAACACGCAGGGACGAGCCAGTCGTCTAAGCTCCTCAGGGGTACCGTTCGCCGGACTACAGCCTGTCCCCGGCGGCCGCAACTGGGCTGCGATCCAGCCCCCGCTCCAAAAGGATGACTCGACCTTGCGCCTCGCGTACTCTGCTCTCGAGCTGTCTCCGTGGGCAATGCCGGCTCACGCTGTGGGGAACCCTGGACGCCCGGGCCGAGCCGACGTGGCCCCGCCCAGGCCTTTTCGTCGATCGCAGCTATGTACCCTGTGCTGGCCAGCGCTACTGCGCCGGCCATTAGCGGTGCGCTCTCGACTCGGCCCCAACGTAGACGGCGTCGCTGGCCGGATTCAAAGAAGTGAGCTACTACCATCGCGTGACGCCCTGCGGGCCTGAGTAACCGTGCACGAAGGACACCCCGTTCGTGGCGGGGGTTGCCTCCGCGACGGTCGCCAACGTTGGGGGTCGGTGCATTCAGGCGACGAGGGACCGCTGGTTTCCGGAGAGCGGCCTGTGCTCACACAGGTGCGGTCCATGGGGCCTGTGGATCCGGTTCTCCCACGCGTAGCGCCGGCGTTAGCATGGACGCTAAATAAGTATACGCCGGCAAAGGGAGTGTAGGCCGGCCCGAGGGCAATCGCGGTTACCGGGGTGGGGGAGCTCCCCGCACCAGCCTTGATGTGGTGTGCGAGCG</pbbase:CustomSequence>
+				</pbmeta:ControlKit>
+				<pbmeta:TemplatePrepKit Barcode="Lxxxxx100938900123199" Description="The SMRTbell® Template Prep Kit contains reagent supplies to perform 96 automated SMRTbell non-size-selected library preparations of primer-annealed SMRTbell libraries for insert sizes ranging from 500 bp to over 20 kb. Reagents come in 4 x 24 reaction sets." ExpirationDate="2099-12-31" LotNumber="Lxxxxx" MaxInsertSize="20000" MinInsertSize="500" Name="SMRTbell® Express Template Prep Kit 2.0" PartNumber="100-938-900" Tags="Template Prep Kit, TPK" Version="2.0">
+					<pbbase:Defaults xsi:nil="true"/>
+					<pbbase:LeftAdaptorSequence>ATCTCTCTCAACAACAACAACGGAGGAGGAGGAAAAGAGAGAGAT</pbbase:LeftAdaptorSequence>
+					<pbbase:LeftPrimerSequence>aacggaggaggagga</pbbase:LeftPrimerSequence>
+					<pbbase:RightAdaptorSequence>ATCTCTCTCAACAACAACAACGGAGGAGGAGGAAAAGAGAGAGAT</pbbase:RightAdaptorSequence>
+					<pbbase:RightPrimerSequence>aacggaggaggagga</pbbase:RightPrimerSequence>
+				</pbmeta:TemplatePrepKit>
+				<pbmeta:BindingKit Barcode="Lxxxxx101894200123199" ChipType="8mChip" Description="The Sequel II Binding Kit 2.2 contains reagent supplies to bind prepared DNA template libraries to the Sequel Polymerase 2.2 in preparation for sequencing on the Sequel System. The result is a DNA polymerase/template complex. Sequel II Binding Kit 2.2 should be used only with Sequel II Sequencing Kit 2.0. Reagent quantities support 24 binding reactions." ExpirationDate="2099-12-31" LotNumber="Lxxxxx" Name="Sequel® II Binding Kit 2.2" PartNumber="101-894-200" Tags="Binding Kit, BDK" Version="1.0">
+					<pbbase:Defaults xsi:nil="true"/>
+				</pbmeta:BindingKit>
+				<pbmeta:SequencingKitPlate Barcode="124891101826100101522" ChipType="8mChip" Description="The DNA Sequencing Kit contains a sequencing reagent plate with chemistry for single molecule real-time sequencing on the PacBio Sequel® Dev with Dynamic Loading. Reagent quantities support 4 sequencing reactions to be used in conjunction with SMRT® Cell 4Pac(s).  (4 Cells max/Each Row supplies reagents for 1 Sequel SMRT Cell)" ExpirationDate="2022-10-15" LotNumber="124891" MaxCollections="4" Name="Sequel® II Sequencing Plate 2.0 (4 rxn)" NumOseTubes="0" PartNumber="101-826-100" SupportsDynamicLoading="true" Tags="Sequencing Kit, SQK" Version="2.0">
+					<pbbase:Defaults xsi:nil="true"/>
+					<pbrk:ReagentTubes Barcode="017109100619600123122" ExpirationDate="2022-12-31" LotNumber="017109" Name="Sequel® SMRT®Cell Oil" PartNumber="100-619-600">
+						<pbbase:Defaults xsi:nil="true"/>
+					</pbrk:ReagentTubes>
+				</pbmeta:SequencingKitPlate>
+				<pbmeta:Primary>
+					<pbmeta:AutomationName>SequelAlpha</pbmeta:AutomationName>
+					<pbmeta:ConfigFileName>SqlPoC_SubCrf_2C2A-t2.xml</pbmeta:ConfigFileName>
+					<pbmeta:SequencingCondition>DefaultPrimarySequencingCondition</pbmeta:SequencingCondition>
+					<pbmeta:CCSOptions>
+						<pbmeta:ExecutionMode>None</pbmeta:ExecutionMode>
+						<pbmeta:IncludeKinetics>false</pbmeta:IncludeKinetics>
+					</pbmeta:CCSOptions>
+					<pbmeta:OutputOptions>
+						<pbmeta:ResultsFolder>r64157e_20220309_131347/1_A01/</pbmeta:ResultsFolder>
+						<pbmeta:CollectionPathUri>/pub33/pbio4/r64157e_20220309_131347/1_A01/</pbmeta:CollectionPathUri>
+						<pbmeta:CopyFiles>
+							<pbmeta:CollectionFileCopy>Fasta</pbmeta:CollectionFileCopy>
+							<pbmeta:CollectionFileCopy>Bam</pbmeta:CollectionFileCopy>
+						</pbmeta:CopyFiles>
+						<pbmeta:Readout>Bases_Without_QVs</pbmeta:Readout>
+						<pbmeta:MetricsVerbosity>Minimal</pbmeta:MetricsVerbosity>
+						<pbmeta:TransferResource>
+							<pbmeta:Id>rsync-liverpool-pbio4</pbmeta:Id>
+							<pbmeta:TransferScheme>RSYNC</pbmeta:TransferScheme>
+							<pbmeta:Name>Liverpool Rsync</pbmeta:Name>
+							<pbmeta:Description>University Of Liverpool</pbmeta:Description>
+							<pbmeta:DestPath>/pub33/pbio4</pbmeta:DestPath>
+						</pbmeta:TransferResource>
+					</pbmeta:OutputOptions>
+				</pbmeta:Primary>
+				<pbmeta:PPAConfig>{&quot;adapterFinding&quot;:{&quot;disableAdapterFinding&quot;:false,&quot;leftAdapter&quot;:&quot;ATCTCTCTCAACAACAACAACGGAGGAGGAGGAAAAGAGAGAGAT&quot;,&quot;rightAdapter&quot;:&quot;ATCTCTCTCAACAACAACAACGGAGGAGGAGGAAAAGAGAGAGAT&quot;},&quot;controlFilter&quot;:{&quot;disableControlFiltering&quot;:false,&quot;leftAdapter&quot;:&quot;TAGAGAGAGAAAAGGAGGAGGAGGCAACAACAACAACTCTCTCTA&quot;,&quot;rightAdapter&quot;:&quot;TAGAGAGAGAAAAGGAGGAGGAGGCAACAACAACAACTCTCTCTA&quot;,&quot;sequence&quot;:&quot;TGTCTAGGTCATCTCAACGTAGCTTTGACATATAACTTATCTAAAGTAATCCCTGCACACCTGTATGCATTATGCTTGCTATACACGCGGACACAGGCATATCATTTATTTTTTGCCATGTCCATTAATTGTTCAATAATTTTACTCACGGTATTTAATTTGATGTTGTGTTATATAGAATTGGAATTAAACTTATAAGGATGCTTAGACGTTGCATTATAAAAGTTTATGTACTAAGTATTTAAGACATTGGCATATGATTATAGCTTGACATTATTAAAAATTAATTAATTAAATCTCACACAATACTTATTCAAGACATTTTTACTAAGATAACCAAAGGAATGCGAACAAAATAATACTTAAAATATAAGACTTAGAAGTAATATGATCCAATAGTTACATATAGTACACTAAGTTCCTAAATTATATAACTTTAAAACAAAGTTACGAAATTTGGAAATAATTTTATTTAATCATATTTTCATAATAATGAAATACTGTTTATTTCAGTGGCGAAAAGAGATAATACGATTTTATAGTGATAGAATATCCTTGAAATATCTAAAGATAAAATTAGAAACTTTCTCTTTTCGCTGTAAAGCTATATGACTTAAAAATAACTTATACGCAAAGTATATTGCAGTGGAAACCCAAGAGTATAGTAGCCATGTAATCTCGGGTTCGAAACTACACGCCGCGCACGTAGTCAGATGGTCTGAAACTTGTCTGGGGCTGTTTGTTGACGGATGGAGACTTCACTAAGTGGCGTCAGGCGATGCGCACACACGGGACTCAATCCCGTAGCATGTTATGTGTCGTTCGAAACTCGTGCGTTCGAGATTTACGCCACATTGCCGGCTGGTCCAAGGACGTTATCTACCAGATGATACGGTCCAATTCGTAAGTTTGACTCACATAGTCGCGAACCGCGGAGCTGGAGAACAATAATTACCGGATGATTAGTTGACCATACGCACTATCATGCTCCGTGACTCAGTTTCCGCCATGGAGTTCTCACAGCCCCGTGTGTACCATAACTGCAGTAAGTAAGGACCTTGTTCGGAGGCCGACTCGTATTTCATATGATCTTAGTCTCGCCACCTTATCGCACGAATTGGGGGTGTCTTTTAGCCGACTCCGGCACGATCCGCCGGGAAGTTACTCGACCAGTTGCGGGACGCCCTAGTATGTTCGTATTACGTTCGATGCGTAAGCACCCCAGAGATTTTTGGCGGACGTTTCGGTAAATCATAGTAGAACCGGAGCGGTAAAGCTATTGATAACACGCAGGGACGAGCCAGTCGTCTAAGCTCCTCAGGGGTACCGTTCGCCGGACTACAGCCTGTCCCCGGCGGCCGCAACTGGGCTGCGATCCAGCCCCCGCTCCAAAAGGATGACTCGACCTTGCGCCTCGCGTACTCTGCTCTCGAGCTGTCTCCGTGGGCAATGCCGGCTCACGCTGTGGGGAACCCTGGACGCCCGGGCCGAGCCGACGTGGCCCCGCCCAGGCCTTTTCGTCGATCGCAGCTATGTACCCTGTGCTGGCCAGCGCTACTGCGCCGGCCATTAGCGGTGCGCTCTCGACTCGGCCCCAACGTAGACGGCGTCGCTGGCCGGATTCAAAGAAGTGAGCTACTACCATCGCGTGACGCCCTGCGGGCCTGAGTAACCGTGCACGAAGGACACCCCGTTCGTGGCGGGGGTTGCCTCCGCGACGGTCGCCAACGTTGGGGGTCGGTGCATTCAGGCGACGAGGGACCGCTGGTTTCCGGAGAGCGGCCTGTGCTCACACAGGTGCGGTCCATGGGGCCTGTGGATCCGGTTCTCCCACGCGTAGCGCCGGCGTTAGCATGGACGCTAAATAAGTATACGCCGGCAAAGGGAGTGTAGGCCGGCCCGAGGGCAATCGCGGTTACCGGGGTGGGGGAGCTCCCCGCACCAGCCTTGATGTGGTGTGCGAGCG&quot;},&quot;hqrf&quot;:{&quot;method&quot;:&quot;N2&quot;},&quot;inputFilter&quot;:{&quot;minSnr&quot;:1.5}}</pbmeta:PPAConfig>
+				<pbmeta:Secondary>
+					<pbmeta:AutomationName>DefaultSecondaryAutomationName</pbmeta:AutomationName>
+					<pbmeta:AutomationParameters>
+						<pbmeta:AutomationParameter CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" Name="Reference" SimpleValue="DefaultSecondaryAnalysisReferenceName" ValueDataType="String"/>
+					</pbmeta:AutomationParameters>
+					<pbmeta:CellCountInJob>0</pbmeta:CellCountInJob>
+				</pbmeta:Secondary>
+				<pbmeta:UserDefinedFields>
+					<pbbase:DataEntities Name=" LIMS_IMPORT " SimpleValue="DefaultUserDefinedFieldLIMS" ValueDataType="String"/>
+				</pbmeta:UserDefinedFields>
+				<pbmeta:ComponentVersions>
+					<pbmeta:VersionInfo Name="ics" Version="10.1.0.119549"/>
+					<pbmeta:VersionInfo Name="iui" Version="10.1.0.119549"/>
+					<pbmeta:VersionInfo Name="chemistry" Version="10.2.0.133424"/>
+					<pbmeta:VersionInfo Name="pa" Version="10.1.0.119549"/>
+					<pbmeta:VersionInfo Name="paws" Version="10.1.0.119549"/>
+					<pbmeta:VersionInfo Name="ppa" Version="10.1.0.119549"/>
+					<pbmeta:VersionInfo Name="realtime" Version="10.1.0.119549"/>
+					<pbmeta:VersionInfo Name="transfer" Version="10.1.0.119549"/>
+					<pbmeta:VersionInfo Name="smrtinub" Version="10.2.0.133434"/>
+					<pbmeta:VersionInfo Name="smrtimisc" Version="10.2.0.133434"/>
+					<pbmeta:VersionInfo Name="smrtlink-analysisservices-gui" Version="10.2.0.133434"/>
+					<pbmeta:VersionInfo Name="smrttools" Version="10.2.0.133434"/>
+					<pbmeta:VersionInfo Name="smrtlink" Version="10.2.0.133434"/>
+				</pbmeta:ComponentVersions>
+			</pbmeta:CollectionMetadata>
+		</pbmeta:Collections>
+	</pbds:DataSetMetadata>
+</pbds:AlignmentSet>

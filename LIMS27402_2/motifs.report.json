@@ -1,0 +1,244 @@
+{
+    "_comment": "Generated with pbcommand version  at 2022-04-14T16:56:14.761467",
+    "attributes": [],
+    "dataset_uuids": [],
+    "id": "motifs",
+    "plotGroups": [
+        {
+            "id": "motifs.modification_qvs",
+            "legend": null,
+            "plots": [
+                {
+                    "caption": "Modification QVs",
+                    "id": "motifs.modification_qvs.motifs",
+                    "image": "motif_histogram.png",
+                    "plotType": "image",
+                    "thumbnail": "motif_histogram_thumb.png",
+                    "title": "Modification QVs"
+                }
+            ],
+            "thumbnail": "motif_histogram_thumb.png",
+            "title": "Modification QVs"
+        },
+        {
+            "id": "motifs.motif_modqv_coverage_plots",
+            "legend": null,
+            "plots": [
+                {
+                    "caption": null,
+                    "id": "motifs.motif_modqv_coverage_plots.motif_modqv_coverage_1",
+                    "image": "motif_modqv_coverage_TCAGNNNNTCC.png",
+                    "plotType": "image",
+                    "thumbnail": "motif_modqv_coverage_TCAGNNNNTCC_thumb.png",
+                    "title": null
+                },
+                {
+                    "caption": null,
+                    "id": "motifs.motif_modqv_coverage_plots.motif_modqv_coverage_2",
+                    "image": "motif_modqv_coverage_GGANNNNCTGA.png",
+                    "plotType": "image",
+                    "thumbnail": "motif_modqv_coverage_GGANNNNCTGA_thumb.png",
+                    "title": null
+                },
+                {
+                    "caption": null,
+                    "id": "motifs.motif_modqv_coverage_plots.motif_modqv_coverage_3",
+                    "image": "motif_modqv_coverage_CGMGCNWNNDCNNNC.png",
+                    "plotType": "image",
+                    "thumbnail": "motif_modqv_coverage_CGMGCNWNNDCNNNC_thumb.png",
+                    "title": null
+                },
+                {
+                    "caption": null,
+                    "id": "motifs.motif_modqv_coverage_plots.motif_modqv_coverage_4",
+                    "image": "motif_modqv_coverage_CGCNKNNNCCNGNNCNV.png",
+                    "plotType": "image",
+                    "thumbnail": "motif_modqv_coverage_CGCNKNNNCCNGNNCNV_thumb.png",
+                    "title": null
+                },
+                {
+                    "caption": null,
+                    "id": "motifs.motif_modqv_coverage_plots.motif_modqv_coverage_5",
+                    "image": "motif_modqv_coverage_SGNNNNGNCCANCNHND.png",
+                    "plotType": "image",
+                    "thumbnail": "motif_modqv_coverage_SGNNNNGNCCANCNHND_thumb.png",
+                    "title": null
+                },
+                {
+                    "caption": null,
+                    "id": "motifs.motif_modqv_coverage_plots.motif_modqv_coverage_6",
+                    "image": "motif_modqv_coverage_GNNNNSNSNGCMGCNNNG.png",
+                    "plotType": "image",
+                    "thumbnail": "motif_modqv_coverage_GNNNNSNSNGCMGCNNNG_thumb.png",
+                    "title": null
+                },
+                {
+                    "caption": null,
+                    "id": "motifs.motif_modqv_coverage_plots.motif_modqv_coverage_7",
+                    "image": "motif_modqv_coverage_NoMotif.png",
+                    "plotType": "image",
+                    "thumbnail": "motif_modqv_coverage_NoMotif_thumb.png",
+                    "title": null
+                }
+            ],
+            "thumbnail": null,
+            "title": "ModQV Versus Coverage By Motif"
+        }
+    ],
+    "tables": [
+        {
+            "columns": [
+                {
+                    "header": "Motif",
+                    "id": "motifs.motif_records.motif_id",
+                    "values": [
+                        "TCAGNNNNTCC",
+                        "GGANNNNCTGA",
+                        "CGMGCNWNNDCNNNC",
+                        "CGCNKNNNCCNGNNCNV",
+                        "SGNNNNGNCCANCNHND",
+                        "GNNNNSNSNGCMGCNNNG"
+                    ]
+                },
+                {
+                    "header": "Modified Position",
+                    "id": "motifs.motif_records.modified_position",
+                    "values": [
+                        3,
+                        3,
+                        5,
+                        3,
+                        9,
+                        11
+                    ]
+                },
+                {
+                    "header": "Modification Type",
+                    "id": "motifs.motif_records.modification_type",
+                    "values": [
+                        "m6A",
+                        "m6A",
+                        "m4C",
+                        "m4C",
+                        "m4C",
+                        "m4C"
+                    ]
+                },
+                {
+                    "header": "% of Motifs Detected",
+                    "id": "motifs.motif_records.percent_motifs_detected",
+                    "values": [
+                        1.0,
+                        1.0,
+                        0.35714287,
+                        0.2631579,
+                        0.23809524,
+                        0.18518518
+                    ]
+                },
+                {
+                    "header": "# of Motifs Detected",
+                    "id": "motifs.motif_records.ndetected_motifs",
+                    "values": [
+                        7,
+                        7,
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "header": "# of Motifs in Genome",
+                    "id": "motifs.motif_records.nmotifs_in_genome",
+                    "values": [
+                        7,
+                        7,
+                        14,
+                        19,
+                        21,
+                        27
+                    ]
+                },
+                {
+                    "header": "Mean QV",
+                    "id": "motifs.motif_records.mean_readscore",
+                    "values": [
+                        726.1429,
+                        646.5714,
+                        202.6,
+                        129.0,
+                        132.8,
+                        162.4
+                    ]
+                },
+                {
+                    "header": "Mean Coverage",
+                    "id": "motifs.motif_records.mean_coverage",
+                    "values": [
+                        598.2857,
+                        602.5714,
+                        643.0,
+                        633.6,
+                        633.4,
+                        594.6
+                    ]
+                },
+                {
+                    "header": "Partner Motif",
+                    "id": "motifs.motif_records.partner_motif",
+                    "values": [
+                        "GGANNNNCTGA",
+                        "TCAGNNNNTCC",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                },
+                {
+                    "header": "Mean IPD ratio",
+                    "id": "motifs.motif_records.mean_ipd_ratio",
+                    "values": [
+                        5.8285713,
+                        4.9942856,
+                        1.7880001,
+                        1.5899999,
+                        1.518,
+                        1.6039999
+                    ]
+                },
+                {
+                    "header": "Group Tag",
+                    "id": "motifs.motif_records.group_tag",
+                    "values": [
+                        "TCAGNNNNTCC/GGANNNNCTGA",
+                        "TCAGNNNNTCC/GGANNNNCTGA",
+                        "CGMGCNWNNDCNNNC",
+                        "CGCNKNNNCCNGNNCNV",
+                        "SGNNNNGNCCANCNHND",
+                        "GNNNNSNSNGCMGCNNNG"
+                    ]
+                },
+                {
+                    "header": "Objective Score",
+                    "id": "motifs.motif_records.objective_score",
+                    "values": [
+                        5083.0,
+                        4526.0,
+                        401.02112,
+                        193.9789,
+                        182.49196,
+                        177.99246
+                    ]
+                }
+            ],
+            "id": "motifs.motif_records",
+            "title": "Modified Base Motifs"
+        }
+    ],
+    "tags": [],
+    "title": "Report motifs",
+    "uuid": "0061365d-4ca7-481e-a646-a56d80a1f314",
+    "version": "1.0.1"
+}

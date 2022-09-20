@@ -1,0 +1,3 @@
+motifString,centerPos,modificationType,fraction,nDetected,nGenome,groupTag,partnerMotifString,meanScore,meanIpdRatio,meanCoverage,objectiveScore
+SNGCNNNNGNGNSNANSK,4,m4C,0.3846154,5,13,SNGCNNNNGNGNSNANSK,,143.4,1.602,621.8,303.41925
+DNKNCNNKSCGNGC,14,m4C,0.1764706,6,34,DNKNCNNKSCGNGC,,218.83333,1.7449999,634.1667,275.59406
