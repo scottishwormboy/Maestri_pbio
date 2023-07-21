@@ -1,0 +1,15 @@
+﻿sample_name,TYPE,ACCESSION,ALIAS,methylation_status,scientific_name,sample_title,description,bioproject,run_accession,experiment_accession
+27402_1,SAMPLE,ERS16115121,27402_1,Methylated,Pseudomonas phage DMS3,27402_1MethylatedC2,Pseudomonas phage DMS3C2 phage 2B passaged in MADS host,PRJEB61545,ERR11749536,ERX11148868
+27402_2,SAMPLE,ERS16115122,27402_2,Methylated,Pseudomonas phage DMS3,27402_2MethylatedC4,Pseudomonas phage DMS3C4 phage 4B passaged in MADS host,PRJEB61545,ERR11749540,ERX11148872
+27402_3,SAMPLE,ERS16115123,27402_3,Methylated,Pseudomonas phage DMS3,27402_3MethylatedC6,Pseudomonas phage DMS3C6 phage 6B passaged in MADS host,PRJEB61545,ERR11749541,ERX11148873
+27402_4,SAMPLE,ERS16115124,27402_4,Methylated,Pseudomonas phage DMS3,27402_4MethylatedC5,Pseudomonas phage DMS3C5 phage 5B passaged in MADS host,PRJEB61545,ERR11749542,ERX11148874
+27402_5,SAMPLE,ERS16115125,27402_5,Unmethylated,Pseudomonas phage DMS3,27402_5Unmethylatedm2,Pseudomonas phage DMS3m2 phage 2B passaged in MADS defficient host,PRJEB61545,ERR11749544,ERX11148876
+27402_6,SAMPLE,ERS16115126,27402_6,Unmethylated,Pseudomonas phage DMS3,27402_6Unmethylatedm4,Pseudomonas phage DMS3m4 phage 4B passaged in MADS defficient host,PRJEB61545,ERR11749545,ERX11148877
+27402_7,SAMPLE,ERS16115127,27402_7,Unmethylated,Pseudomonas phage DMS3,27402_7Unmethylatedm6,Pseudomonas phage DMS3m6 phage 6B passaged in MADS defficient host,PRJEB61545,ERR11749538,ERX11148870
+27402_8,SAMPLE,ERS16115128,27402_8,Unmethylated,Pseudomonas phage DMS3,27402_8Unmethylatedm5,Pseudomonas phage DMS3m5 phage 5B passaged in MADS defficient host,PRJEB61545,ERR11749535,ERX11148867
+27402_9,SAMPLE,ERS16115129,27402_9,Unmethylated,Pseudomonas phage DMS3,27402_9Unmethylateddeltacrispr,Pseudomonas phage DMS3wt1 phage DMS3virIE3 deltaCRISPR,PRJEB61545,ERR11749539,ERX11148871
+27402_10,SAMPLE,ERS16115130,27402_10,Unmethylated,Pseudomonas phage DMS3,27402_10Unmethylateddeltamad2,Pseudomonas phage DMS3wt2 phage DMS3virIE3 deltaMad2,PRJEB61545,ERR11749546,ERX11148878
+27402_11,SAMPLE,ERS16115131,27402_11,Methylated,    Pseudomonas aeruginosa,27402_11Methylatedwt_PA,Pseudomonas aeruginosaSMC4386-WT,PRJEB61545,ERR11749537,ERX11148869
+27402_12,SAMPLE,ERS16115132,27402_12,Methylated,    Pseudomonas aeruginosa,27402_12Methylateddeltacrispr_PA,Pseudomonas aeruginosaSMC4386 deltaCRISPR,PRJEB61545,ERR11749547,ERX11148879
+27402_13,SAMPLE,ERS16115133,27402_13,Unmethylated,    Pseudomonas aeruginosa,27402_13Unmethylateddeltacrispr_deltamad_PA,Pseudomonas aeruginosaSMC4386 deltaCRISPR deltaMADS,PRJEB61545,ERR11749543,ERX11148875
+27402_14,SAMPLE,ERS16115134,27402_14,Unmethylated,    Pseudomonas aeruginosa,27402_14Unmethylateddeltacrispr_deltamad2_PA,Pseudomonas aeruginosaSMC4386 deltaCRISPR deltaMad2,PRJEB61545,ERR11749534,ERX11148866
